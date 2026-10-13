@@ -18,7 +18,9 @@ def main():
     args = parser.parse_args()
     output = ROOT / args.output
     if output.exists():
-        parser.error('Output already exists; choose a new name to preserve evidence.')
+        prior = json.loads(output.read_text(encoding='utf-8'))
+        if prior.get('execution_status') != 'not_run':
+            parser.error('Output already exists; choose a new name to preserve evidence.')
     output.parent.mkdir(parents=True, exist_ok=True)
     xml_path = output.with_suffix('.xml')
     start = datetime.now(timezone.utc).isoformat()

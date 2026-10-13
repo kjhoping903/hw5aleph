@@ -1,0 +1,20 @@
+============================= test session starts =============================
+platform win32 -- Python 3.12.12, pytest-8.4.2, pluggy-1.6.0 -- C:\work\sep12\과제5\t05-stateless-handover\.venv\Scripts\python.exe
+cachedir: .pytest_cache
+rootdir: C:\work\sep12\과제5\t05-stateless-handover
+configfile: pytest.ini
+collecting ... collected 10 items
+
+tests/test_fixed.py::test_T01_service_start PASSED                       [ 10%]
+tests/test_fixed.py::test_T02_health_status PASSED                       [ 20%]
+tests/test_fixed.py::test_T03_health_json PASSED                         [ 30%]
+tests/test_fixed.py::test_T04_hello_status PASSED                        [ 40%]
+tests/test_fixed.py::test_T05_hello_version PASSED                       [ 50%]
+tests/test_fixed.py::test_T06_default_place PASSED                       [ 60%]
+tests/test_fixed.py::test_T07_daejeon PASSED                             [ 70%]
+tests/test_fixed.py::test_T08_seoul PASSED                               [ 80%]
+tests/test_fixed.py::test_T09_info_contract PASSED                       [ 90%]
+tests/test_fixed.py::test_T10_not_found PASSED                           [100%]
+
+- generated xml file: C:\work\sep12\과제5\t05-stateless-handover\evidence\session-a-results.xml -
+============================= 10 passed in 0.07s ==============================

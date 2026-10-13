@@ -1,0 +1,22 @@
+{
+  "status": "in_progress",
+  "first_observed_at": "2026-10-13T06:54:45Z",
+  "a_implementation_started_at": "2026-10-13T06:57:59Z",
+  "limits": {
+    "minutes": 90,
+    "observable_user_requests_plus_tool_calls": 60,
+    "tokens_if_measurable": 50000,
+    "whole_project_minutes": 300
+  },
+  "user_requests": 1,
+  "tool_calls": null,
+  "internal_calls": {
+    "measurement_status": "unavailable",
+    "value": null
+  },
+  "tokens": {
+    "measurement_status": "unavailable",
+    "value": null
+  },
+  "note": "First request receipt timestamp unavailable; setup observations are recorded separately."
+}

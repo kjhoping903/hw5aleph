@@ -1,14 +1,15 @@
 """Small, offline Flask handover exercise."""
+import os
 from flask import Flask, jsonify
 
 
 def create_app():
     app = Flask(__name__)
-    app.config['APP_PLACE'] = 'UNKNOWN'
+    app.config['APP_PLACE'] = os.environ.get('APP_PLACE', 'UNKNOWN')
 
     @app.get('/api/hello')
     def hello():
-        return jsonify(message='Hello', version='v1', place=app.config['APP_PLACE'])
+        return jsonify(message='Hello', version='v2', place=app.config['APP_PLACE'])
 
     @app.get('/api/health')
     def health():

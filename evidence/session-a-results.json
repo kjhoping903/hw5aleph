@@ -1,0 +1,73 @@
+{
+  "execution_status": "executed",
+  "total": 10,
+  "passed": 10,
+  "failed": 0,
+  "errors": 0,
+  "skipped": 0,
+  "results": [
+    {
+      "id": "T01",
+      "function": "test_T01_service_start",
+      "status": "passed"
+    },
+    {
+      "id": "T02",
+      "function": "test_T02_health_status",
+      "status": "passed"
+    },
+    {
+      "id": "T03",
+      "function": "test_T03_health_json",
+      "status": "passed"
+    },
+    {
+      "id": "T04",
+      "function": "test_T04_hello_status",
+      "status": "passed"
+    },
+    {
+      "id": "T05",
+      "function": "test_T05_hello_version",
+      "status": "passed"
+    },
+    {
+      "id": "T06",
+      "function": "test_T06_default_place",
+      "status": "passed"
+    },
+    {
+      "id": "T07",
+      "function": "test_T07_daejeon",
+      "status": "passed"
+    },
+    {
+      "id": "T08",
+      "function": "test_T08_seoul",
+      "status": "passed"
+    },
+    {
+      "id": "T09",
+      "function": "test_T09_info_contract",
+      "status": "passed"
+    },
+    {
+      "id": "T10",
+      "function": "test_T10_not_found",
+      "status": "passed"
+    }
+  ],
+  "started_at": "2026-10-13T06:58:58.463653+00:00",
+  "ended_at": "2026-10-13T06:58:58.930316+00:00",
+  "elapsed_seconds": 0.4331153000239283,
+  "python": "3.12.12 (main, Jan 14 2026, 19:30:21) [MSC v.1944 64 bit (AMD64)]",
+  "pytest_exit_code": 0,
+  "collection_valid": true,
+  "hashes": {
+    "tests/test_fixed.py": "b8f793b1c1efaed372c7c7af4cc363f8170cf93e0bd0c664e539aabdb46a076a",
+    "tests/conftest.py": "7239b00ea4a5660db9daeff9a14b8eab2e6e35b975a813a9535d4173bb000ad9",
+    "evidence/fixed-contract.json": "63e373af28d44eba0afb154dd8414d4d2435a55189c6a529956fe6b4a327857f"
+  },
+  "git_sha": "940a15177e4d8927acd7bde7e7abf85f6c539bf1",
+  "git_measurement_status": "available"
+}

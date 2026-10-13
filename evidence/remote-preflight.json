@@ -1,0 +1,13 @@
+{
+  "checked_at": "2026-10-13T07:11:15.151345+00:00",
+  "github": {
+    "status": "unavailable",
+    "error": "HTTP Error 404: Not Found"
+  },
+  "docker_image": {
+    "tag": "python:3.12.12-slim-bookworm",
+    "http_status": 200,
+    "digest": "sha256:593bd06efe90efa80dc4eee3948be7c0fde4134606dd40d8dd8dbcade98e669c",
+    "runtime_test": "not_run"
+  }
+}

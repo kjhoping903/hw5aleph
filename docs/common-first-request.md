@@ -1,0 +1,1 @@
+/api/hello의 version을 v2로 바꾸고 APP_PLACE를 앱 생성 시 읽어 place에 반환하라. 미설정이면 UNKNOWN이다. health/info/404는 보존한다. 고정 T01~T10은 수정하지 않는다. 실제 결과·환경·Git 저장점·인수인계와 보고서를 남긴다. 세션 90분, 관측 사용자 요청+도구 호출 60회. 독립 B는 Git과 handover.md만 사용한다.

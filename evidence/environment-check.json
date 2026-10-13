@@ -1,0 +1,27 @@
+﻿{
+  "python": "3.12.12",
+  "python_3_12": true,
+  "docker_command_exists": false,
+  "compose": {
+    "status": "not_run",
+    "reason": "docker command not found"
+  },
+  "required_files": {
+    "app.py": true,
+    "requirements.txt": true,
+    "requirements-dev.txt": true,
+    "Dockerfile": true,
+    "compose.yaml": true,
+    ".env.example": true,
+    "README.md": true,
+    "AGENTS.md": true,
+    "handover.md": true,
+    "tests/test_fixed.py": true,
+    "evidence/fixed-contract.json": true,
+    "evidence/frozen-hashes.json": true
+  },
+  "environment_variable_names": [
+    "APP_PLACE"
+  ],
+  "secret_values_printed": false
+}
