@@ -1,0 +1,22 @@
+
+The command exited with code 0.
+Output:
+
+
+    �͸�: C:\Users\User\Desktop\sheld\choi-bujang-secret-vault-5
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+-a----      2026-10-06  � 12:22             21 data.json                                                            
+
+
+    �͸�: C:\Users\User\Desktop\sheld\choi-bujang-secret-vault-5\public
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+-a----      2026-10-07  � 11:34             18 data.json                                                            
+
+
+

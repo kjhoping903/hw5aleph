@@ -1,0 +1,56 @@
+I1007 16:34:00.883578      52 server.go:1625] Starting language server process with pid 10556
+I1007 16:34:00.888285      52 server.go:1676] Language server version: 2.21.0
+I1007 16:34:00.888811      52 server.go:628] Language server will attempt to listen on host localhost
+I1007 16:34:00.897868      52 server.go:643] Language server listening on random port at 59794 for HTTPS (gRPC)
+I1007 16:34:00.898379      52 server.go:651] Language server listening on random port at 57429 for HTTP
+I1007 16:34:01.136460      52 auth_provider.go:1323] [AuthProvider] SetEnableBusinessLogin called with enable: true
+I1007 16:34:01.136460      52 auth_provider.go:1255] [AuthProvider] SetProjectID called with projectID: ""
+I1007 16:34:01.136460      52 auth_provider.go:1263] [AuthProvider] SetLocation called with location: ""
+I1007 16:34:01.137087      52 auth_provider.go:1271] [AuthProvider] SetUserTier called with userTier: "", tierDisplayName: ""
+I1007 16:34:01.151849     112 store_client.go:697] summary store: starting background reconciliation (trigger=startup)
+I1007 16:34:01.152393     112 store_client.go:747] summary store: reconciliation complete, synced 1 records
+I1007 16:34:01.316576     101 auth_provider.go:1255] [AuthProvider] SetProjectID called with projectID: ""
+I1007 16:34:01.316576     101 auth_provider.go:1263] [AuthProvider] SetLocation called with location: ""
+I1007 16:34:01.316576     101 auth_provider.go:1271] [AuthProvider] SetUserTier called with userTier: "", tierDisplayName: ""
+I1007 16:34:02.270656     101 http_helpers.go:315] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x874d0113f136af16
+I1007 16:34:02.397174     106 http_helpers.go:315] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0xd593b9ccb8657575
+I1007 16:34:03.077719     106 http_helpers.go:315] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x6bf3b2ebf12fca1
+I1007 16:34:03.105314     106 remote_agent.go:159] Remote agent fastpush pin gate changed: false -> true
+W1007 16:34:03.106956      52 defaults.go:710] failed to get cs path: cs path /usr/bin/cs invalid
+I1007 16:34:03.106956      52 manager.go:108] Creating trajectory store manager with proto store and SQLite store
+I1007 16:34:03.109055     198 manager.go:88] Migration [MIGRATION_ID_SIDECAR_USER_CONFIG_BYPASS] is disabled, skipping entirely
+I1007 16:34:03.109055     198 manager.go:91] Migration [MIGRATION_ID_SANITY_CHECK_PROJECT_URIS] is enabled
+I1007 16:34:03.109055     198 manager.go:100] Migration [MIGRATION_ID_SANITY_CHECK_PROJECT_URIS] already has status MIGRATION_STATUS_COMPLETED, skipping
+I1007 16:34:03.109886     198 manager.go:91] Migration [MIGRATION_ID_PLUGIN_ENABLEMENT] is enabled
+I1007 16:34:03.109886     198 manager.go:100] Migration [MIGRATION_ID_PLUGIN_ENABLEMENT] already has status MIGRATION_STATUS_COMPLETED, skipping
+I1007 16:34:03.109886     198 manager.go:91] Migration [MIGRATION_ID_BUILTIN_SIDECARS_TO_PLUGINS] is enabled
+I1007 16:34:03.110566     198 manager.go:100] Migration [MIGRATION_ID_BUILTIN_SIDECARS_TO_PLUGINS] already has status MIGRATION_STATUS_COMPLETED, skipping
+I1007 16:34:03.110566     198 manager.go:88] Migration [MIGRATION_ID_LIN_BUILTIN_TO_MARKETPLACE] is disabled, skipping entirely
+I1007 16:34:03.110566     198 manager.go:91] Migration [MIGRATION_ID_ADOPT_BWG_INSTALLS] is enabled
+I1007 16:34:03.110566     198 manager.go:100] Migration [MIGRATION_ID_ADOPT_BWG_INSTALLS] already has status MIGRATION_STATUS_COMPLETED, skipping
+I1007 16:34:03.110566     198 manager.go:88] Migration [MIGRATION_ID_PERMISSION_GRANTS_V2] is disabled, skipping entirely
+I1007 16:34:03.120667      52 server.go:1431] Serving UI bundle from embedded assets
+I1007 16:34:03.120667      52 server.go:3170] Auth succeeded, refreshing features and managers
+I1007 16:34:03.576386      52 server.go:3177] State refresh took 455ms
+I1007 16:34:03.576386      52 server.go:3188] [RemoteControl] Subscription callback triggered.
+I1007 16:34:03.577506      52 server.go:3191] [RemoteControl] RemoteControlEnabled value: false
+I1007 16:34:03.577506      52 server.go:3926] [RemoteControl] CLI launched without --remote-control, staying disconnected
+I1007 16:34:03.577506      52 server.go:3629] [RemoteControl] Resolved proxyServerURL: ""
+I1007 16:34:03.577506      52 server.go:3216] Retroactive projects migration enabled: true
+I1007 16:34:03.578643      52 projects_migration.go:552] Projects migration already started or completed, skipping
+I1007 16:34:03.579199      52 profiler.go:231] Continuous pprof profiling is disabled.
+I1007 16:34:03.579199     226 manager.go:88] Migration [MIGRATION_ID_SIDECAR_USER_CONFIG_BYPASS] is disabled, skipping entirely
+I1007 16:34:03.579199     226 manager.go:91] Migration [MIGRATION_ID_SANITY_CHECK_PROJECT_URIS] is enabled
+I1007 16:34:03.579740     226 manager.go:100] Migration [MIGRATION_ID_SANITY_CHECK_PROJECT_URIS] already has status MIGRATION_STATUS_COMPLETED, skipping
+I1007 16:34:03.579740     226 manager.go:91] Migration [MIGRATION_ID_PLUGIN_ENABLEMENT] is enabled
+I1007 16:34:03.579740      52 server.go:2605] initialized server successfully in 2.6961618s
+I1007 16:34:03.579740     226 manager.go:100] Migration [MIGRATION_ID_PLUGIN_ENABLEMENT] already has status MIGRATION_STATUS_COMPLETED, skipping
+I1007 16:34:03.579740     226 manager.go:91] Migration [MIGRATION_ID_BUILTIN_SIDECARS_TO_PLUGINS] is enabled
+I1007 16:34:03.580284     226 manager.go:100] Migration [MIGRATION_ID_BUILTIN_SIDECARS_TO_PLUGINS] already has status MIGRATION_STATUS_COMPLETED, skipping
+I1007 16:34:03.580284     226 manager.go:88] Migration [MIGRATION_ID_LIN_BUILTIN_TO_MARKETPLACE] is disabled, skipping entirely
+I1007 16:34:03.580284     226 manager.go:91] Migration [MIGRATION_ID_ADOPT_BWG_INSTALLS] is enabled
+I1007 16:34:03.580821     226 manager.go:100] Migration [MIGRATION_ID_ADOPT_BWG_INSTALLS] already has status MIGRATION_STATUS_COMPLETED, skipping
+I1007 16:34:03.580821     226 manager.go:88] Migration [MIGRATION_ID_PERMISSION_GRANTS_V2] is disabled, skipping entirely
+I1007 16:34:03.627925     177 reconcile_summaries.go:94] [Summaries] reconcile checked 2 conversations, restored 1, cached 1, skipped 0, dropped 0, cancelled false in 48ms (resident: 0 -> 0)
+I1007 16:34:03.627925     231 store_client.go:697] summary store: starting background reconciliation (trigger=startup)
+I1007 16:34:03.627925     231 store_client.go:747] summary store: reconciliation complete, synced 2 records

@@ -1,0 +1,14 @@
+I1007 16:33:51.309130      29 server.go:1625] Starting language server process with pid 5300
+I1007 16:33:51.311398      29 server.go:1676] Language server version: 2.21.0
+I1007 16:33:51.311398      29 server.go:628] Language server will attempt to listen on host localhost
+I1007 16:33:51.317453      29 server.go:643] Language server listening on random port at 58074 for HTTPS (gRPC)
+I1007 16:33:51.317971      29 server.go:651] Language server listening on random port at 49679 for HTTP
+I1007 16:33:51.549541      29 auth_provider.go:1323] [AuthProvider] SetEnableBusinessLogin called with enable: true
+I1007 16:33:51.549541      29 auth_provider.go:1255] [AuthProvider] SetProjectID called with projectID: ""
+I1007 16:33:51.549541      29 auth_provider.go:1263] [AuthProvider] SetLocation called with location: ""
+I1007 16:33:51.549541      29 auth_provider.go:1271] [AuthProvider] SetUserTier called with userTier: "", tierDisplayName: ""
+I1007 16:33:51.571394      99 store_client.go:697] summary store: starting background reconciliation (trigger=startup)
+I1007 16:33:51.571935      99 store_client.go:747] summary store: reconciliation complete, synced 1 records
+I1007 16:33:51.735192      72 auth_provider.go:1255] [AuthProvider] SetProjectID called with projectID: ""
+I1007 16:33:51.735192      72 auth_provider.go:1263] [AuthProvider] SetLocation called with location: ""
+I1007 16:33:51.735192      72 auth_provider.go:1271] [AuthProvider] SetUserTier called with userTier: "", tierDisplayName: ""

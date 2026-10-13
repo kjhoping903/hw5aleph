@@ -1,0 +1,8 @@
+
+The command exited with code 0.
+Output:
+warning: in the working copy of '.gitignore', LF will be replaced by CRLF the next time Git touches it
+[main e2553bc] chore: add gitignore for python cache
+ 1 file changed, 3 insertions(+)
+ create mode 100644 .gitignore
+

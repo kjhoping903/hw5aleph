@@ -1,0 +1,16 @@
+I1013 15:00:37.815239      28 server.go:1633] Starting language server process with pid 20780
+I1013 15:00:37.816884      28 server.go:1684] Language server version: 2.23.0
+I1013 15:00:37.816884      28 server.go:636] Language server will attempt to listen on host localhost
+I1013 15:00:37.822827      28 server.go:651] Language server listening on random port at 53186 for HTTPS (gRPC)
+I1013 15:00:37.823353      28 server.go:659] Language server listening on random port at 49315 for HTTP
+I1013 15:00:38.136022      28 auth_provider.go:1323] [AuthProvider] SetEnableBusinessLogin called with enable: true
+I1013 15:00:38.136022      28 auth_provider.go:1255] [AuthProvider] SetProjectID called with projectID: ""
+I1013 15:00:38.136022      28 auth_provider.go:1263] [AuthProvider] SetLocation called with location: ""
+I1013 15:00:38.136022      28 auth_provider.go:1271] [AuthProvider] SetUserTier called with userTier: "", tierDisplayName: ""
+I1013 15:00:38.154283     104 store_client.go:704] summary store: starting background reconciliation (trigger=startup)
+I1013 15:00:38.158294     104 store_client.go:754] summary store: reconciliation complete, synced 4 records
+I1013 15:00:38.321405      77 auth_provider.go:1255] [AuthProvider] SetProjectID called with projectID: ""
+I1013 15:00:38.321405      77 auth_provider.go:1263] [AuthProvider] SetLocation called with location: ""
+I1013 15:00:38.321405      77 auth_provider.go:1271] [AuthProvider] SetUserTier called with userTier: "", tierDisplayName: ""
+I1013 15:00:39.730142      98 http_helpers.go:334] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0xbf4d32ed35bfc939
+I1013 15:00:39.831358      77 http_helpers.go:334] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0xf43726dbb3145a2a

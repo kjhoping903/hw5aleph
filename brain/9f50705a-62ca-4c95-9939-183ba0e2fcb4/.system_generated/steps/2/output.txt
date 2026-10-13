@@ -1,0 +1,106 @@
+
+The command exited with code 0.
+Output:
+<truncated 52 lines>
+-a----      2026-10-08   � 4:09            372 .env.example                                                         
+-a----      2026-10-08   � 3:57            123 .gitignore                                                           
+-a----      2026-10-08   � 4:00           8245 app.py                                                               
+-a----      2026-10-08   � 4:14           5829 audit_t04.py                                                         
+-a----      2026-10-08   � 4:09             49 Caddyfile                                                            
+-a----      2026-10-08   � 4:09            645 compose.yaml                                                         
+-a----      2026-10-08   � 4:09            497 container_start.py                                                   
+-a----      2026-10-08   � 4:09            225 Dockerfile                                                           
+-a----      2026-10-08   � 4:19          61440 fx.sqlite3                                                           
+-a----      2026-10-08   � 4:12          22679 fx_core.py                                                           
+-a----      2026-10-08   � 3:41           3344 import_t04_assets.py                                                 
+-a----      2026-10-08   � 4:19          19214 index.html                                                           
+-a----      2026-10-08   � 4:19          11797 README.md                                                            
+-a----      2026-10-08   � 3:57             39 requirements-dev.txt                                                 
+-a----      2026-10-08   � 3:57             19 requirements.txt                                                     
+-a----      2026-10-08   � 4:19           1067 SUBMISSION.md                                                        
+-a----      2026-10-08   � 3:55           6265 T04-assets-verification.json                                         
+-a----      2026-10-08   � 4:19           9749 T04-audit-evidence.json                                              
+-a----      2026-10-08   � 3:43          23408 T04-AUDIT.md                                                         
+-a----      2026-10-08   � 3:43          31975 T04-criteria-audit.json                                              
+-a----      2026-10-08   � 3:29            390 T04-source-response.json                                             
+-a----      2026-10-08   � 4:14          12767 test_app.py                                                          
+-a----      2026-10-08   � 4:19           6645 test_browser.py                                                      
+-a----      2026-10-08   � 4:06           3327 test_ui.mjs                                                          
+
+
+    �͸�: C:\work\japan y&korea won\artifacts
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+-a----      2026-10-08   � 4:19         183755 actual-desktop.png                                                   
+-a----      2026-10-08   � 4:19         163533 actual-mobile.png                                                    
+-a----      2026-10-08   � 4:19           1304 browser-results.json                                                 
+
+
+    �͸�: C:\work\japan y&korea won\assets
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+d-----      2026-10-08   � 3:39                studio-task-assets                                                   
+
+
+    �͸�: C:\work\japan y&korea won\assets\studio-task-assets
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+d-----      2026-10-08   � 3:39                t04-real-information-board                                           
+
+
+    �͸�: C:\work\japan y&korea won\assets\studio-task-assets\t04-real-information-board
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+d-----      2026-10-08   � 3:39                fixtures                                                             
+-a----      2026-10-08   � 3:55           7702 adapter-reset.example.js                                             
+-a----      2026-10-08   � 3:55           3382 asset-manifest.json                                                  
+-a----      2026-10-08   � 3:55          14360 criterion-registry.json                                              
+-a----      2026-10-08   � 3:55           1631 fixture-manifest.json                                                
+-a----      2026-10-08   � 3:55           1869 fixture.schema.json                                                  
+-a----      2026-10-08   � 3:55           1448 normalized-reading.schema.json                                       
+-a----      2026-10-08   � 3:55           3855 public-contract.json                                                 
+-a----      2026-10-08   � 3:55            908 reading-status.schema.json                                           
+-a----      2026-10-08   � 3:55           5017 README.md                                                            
+
+
+    �͸�: C:\work\japan y&korea won\backups
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+-a----      2026-10-08   � 3:55          16384 fx-before-t04-migration.sqlite3                                      
+
+
+    �͸�: C:\work\japan y&korea won\runtime
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+-a----      2026-10-08   � 4:19          40960 replay-17868d31a82c4adfbbf8496b0168cad8.sqlite3                      
+-a----      2026-10-08   � 4:19          40960 replay-33f57efadd1e4fb59adc071ebc9a5948.sqlite3                      
+-a----      2026-10-08   � 4:09          40960 replay-63c6f12e4f1d4ef68cf178adfeb66566.sqlite3                      
+-a----      2026-10-08   � 4:11          40960 replay-8e6cf9f4417a47d38dbb0348d42436cb.sqlite3                      
+-a----      2026-10-08   � 4:11          40960 replay-c3e00879f26f4adf8277f34c4f7177cd.sqlite3                      
+-a----      2026-10-08   � 4:09          40960 replay-e97ab2dc7be64d98a4452bbec7d5c8d4.sqlite3                      
+
+
+    �͸�: C:\work\japan y&korea won\__pycache__
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+-a----      2026-10-08   � 4:05          13922 app.cpython-314.pyc                                                  
+-a----      2026-10-08   � 4:12          34793 fx_core.cpython-314.pyc                                              
+-a----      2026-10-08   � 4:14          24717 test_app.cpython-314.pyc                                             
+-a----      2026-10-08   � 4:19          12108 test_browser.cpython-314.pyc                                         
+
+
+

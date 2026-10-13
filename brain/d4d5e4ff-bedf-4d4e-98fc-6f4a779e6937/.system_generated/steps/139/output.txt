@@ -1,0 +1,15 @@
+
+The command exited with code 1.
+Output:
+=== 1. � �׽�Ʈ ===
+=== 2. � �ȣ �׽�Ʈ ===
+=== 3. �û � � � �ȸ/�/� �׽�Ʈ ===
+Events count: 8, Total: 8, Errors: 3
+=== 4. �޸� CRUD � �ȿ� �˻� �׽�Ʈ ===
+=== 5. �α׾ƿ� �׽�Ʈ ===
+Traceback (most recent call last):
+  File "C:\work\mini-watch-day03-start\monitor\backend\test_scenario.py", line 87, in <module>
+    print('� � � �ó� � �Ǿ�ϴ�! \u2728')
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'cp949' codec can't encode character '\u2728' in position 30: illegal multibyte sequence
+

@@ -1,0 +1,74 @@
+
+The command exited with code 0.
+Output:
+<truncated 92 lines>
+HancomOffice_HancomDocs_ko (1).exe                                                                                     
+HancomOffice_HancomDocs_ko.exe                                                                                         
+jh card-studio.html                                                                                                    
+jjal-card-1x1.png                                                                                                      
+jjal-card-9x16 (1).png                                                                                                 
+jjal-card-9x16.png                                                                                                     
+jjal-card-templates (1).json                                                                                           
+jjal-card-templates.json                                                                                               
+KakaoTalk_Setup (1).exe                                                                                                
+KakaoTalk_Setup.exe                                                                                                    
+login-watchdog �߰� � (2).pdf                                                                                       
+login-watchdog �߰�ǥ �뺻.docx                                                                                      
+login-watchdog_�߰�_�__2_.pptx                                                                                      
+login_watchdog_master_proposal.md                                                                                      
+m3-d1.zip                                                                                                              
+m3-d3.zip                                                                                                              
+m3-d4-logs.zip                                                                                                         
+m3-d4.zip                                                                                                              
+m4-d1-start.zip                                                                                                        
+Microsoft.Services.Store.winmd                                                                                         
+mini-watch-day06-start.zip                                                                                             
+mini-watch-day06-submission.zip                                                                                        
+NewDocument 2026-10-07 153734.docx                                                                                     
+node-v24.21.0-x64.msi                                                                                                  
+nos_setup.exe                                                                                                          
+npcap-1.88.exe                                                                                                         
+npp.8.9.8.1.Installer.x64.exe                                                                                          
+p4_test.pkt                                                                                                            
+permanent-lock-and-track-d-plan-visual.html                                                                            
+permanent-lock-and-track-d-plan.md                                                                                     
+postgresql-16.15-5-windows-x64.exe                                                                                     
+posts-crud.zip                                                                                                         
+preview.html                                                                                                           
+public-contract (1).json                                                                                               
+public-contract.json                                                                                                   
+python-3.13.15-amd64.exe                                                                                               
+Python-3.14.7.tar                                                                                                      
+Python-3.14.7.tar.xz                                                                                                   
+React� Flask� � �ú� �ϼ�ϱ� � skt aleph �A� � Codemit.pdf                                               
+README.md                                                                                                              
+rufus-4.15.exe                                                                                                         
+security-agent-toolkit                                                                                                 
+security-agent-toolkit-20260828T011110Z-1-001.zip                                                                      
+SKT_�ȯ �Ŵ�.png                                                                                                  
+Slack.msix                                                                                                             
+snake-full-source.zip                                                                                                  
+StrengthsProfile-jaeho-kim.pdf                                                                                         
+t04-real-information-board-public-v1.zip                                                                               
+TalkMedia_i_2dbd72d7c02a.jpg.jpg                                                                                       
+ubuntu-24.04.4-live-server-amd64.iso                                                                                   
+VirtualBox-7.2.16-174877-Win.exe                                                                                       
+VSCodeUserSetup-x64-1.134.0.exe                                                                                        
+Win10PE_�ѹ�(ȫ�ǲ�Base).iso                                                                                   
+Win11PE_24H2(26100.2605)_x64_�_v1.2_(by_ȫ�_�)_(689MB)_�ڵ�ػ�.iso                                   
+Wireshark-4.6.8-x64.exe                                                                                                
+[�ǥ]2026 �н� �ű� �ʱ�(260323).pdf                                                                      
+�Ʈ�ũ � 2� �ʱ� �ົ.pdf                                                                                    
+�͹̳�_�뼱�ð�ǥ.html                                                                                         
+�ȸ�.hwp.pdf                                                                                             
+�_�Ի�_260311.docx                                                                                          
+�Ȯ�μ�_20260921_102521.pdf                                                                                     
+�ű� �ʱ� � (1).zip                                                                                     
+�ű� �ʱ� �.zip                                                                                         
+�ű� �ʱ� �ٽɿ� (1).pdf                                                                                     
+�ű� �ʱ� �ٽɿ�.pdf                                                                                         
+�ű�_�ʱ�_�ٽɿ�_�Ʈ.docx                                                                               
+�ű�_�ʱ�_�ٽɿ�_�Ʈ.html                                                                               
+
+
+

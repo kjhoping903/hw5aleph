@@ -1,0 +1,18 @@
+
+The command exited with code 0.
+Output:
+ M .gitignore
+ M README.md
+ M general/static/style.css
+ M monitor/backend/.env.example
+ M monitor/backend/app.py
+?? .vscode/
+?? general/templates/new.html
+?? monitor/backend/create_user.py
+?? monitor/backend/repositories/
+?? monitor/backend/routes/
+?? monitor/backend/sql/notes.sql
+?? monitor/backend/sql/users.sql
+?? monitor/backend/test_scenario.py
+?? monitor/frontend/
+

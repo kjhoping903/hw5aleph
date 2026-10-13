@@ -1,0 +1,5 @@
+
+The command exited with code 0.
+Output:
+['postgres', 'general_db', 'template1', 'template0', 'monitor_db']
+

@@ -1,0 +1,43 @@
+
+The command exited with code 0.
+Output:
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   README.md
+	modified:   T04-audit-evidence.json
+	modified:   __pycache__/app.cpython-314.pyc
+	modified:   __pycache__/test_app.cpython-314.pyc
+	modified:   app.py
+	modified:   audit_t04.py
+	modified:   fx.sqlite3
+	modified:   index.html
+	modified:   test_app.py
+	modified:   test_ui.mjs
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	.dockerignore
+	.env.example
+	.gitignore
+	Caddyfile
+	Dockerfile
+	SUBMISSION.md
+	artifacts/
+	compose.yaml
+	container_start.py
+	fx_core.py
+	requirements-dev.txt
+	requirements.txt
+	test_browser.py
+
+no changes added to commit (use "git add" and/or "git commit -a")
+commit 0ebc294c939b5c4b8ab4b5e4092e91091e5ff229
+Author: Kim Jaeho <kimjaeho0903@gmail.com>
+Date:   Thu Oct 8 15:46:38 2026 +0900
+
+    first commit
+

@@ -1,0 +1,77 @@
+
+The command exited with code 0.
+Output:
+<truncated 43 lines>
+d----- @supabase                        C:\work\choi-bujang-secret-vault-5\node_modules\@supabase                 
+d----- iceberg-js                       C:\work\choi-bujang-secret-vault-5\node_modules\iceberg-js                
+d----- jose                             C:\work\choi-bujang-secret-vault-5\node_modules\jose                      
+d----- tslib                            C:\work\choi-bujang-secret-vault-5\node_modules\tslib                     
+-a---- .package-lock.json               C:\work\choi-bujang-secret-vault-5\node_modules\.package-lock.json        
+d----- auth-js                          C:\work\choi-bujang-secret-vault-5\node_modules\@supabase\auth-js         
+d----- functions-js                     C:\work\choi-bujang-secret-vault-5\node_modules\@supabase\functions-js    
+d----- phoenix                          C:\work\choi-bujang-secret-vault-5\node_modules\@supabase\phoenix         
+d----- postgrest-js                     C:\work\choi-bujang-secret-vault-5\node_modules\@supabase\postgrest-js    
+d----- realtime-js                      C:\work\choi-bujang-secret-vault-5\node_modules\@supabase\realtime-js     
+d----- storage-js                       C:\work\choi-bujang-secret-vault-5\node_modules\@supabase\storage-js      
+d----- supabase-js                      C:\work\choi-bujang-secret-vault-5\node_modules\@supabase\supabase-js     
+d----- dist                             C:\work\choi-bujang-secret-vault-5\node_modules\iceberg-js\dist           
+-a---- LICENSE                          C:\work\choi-bujang-secret-vault-5\node_modules\iceberg-js\LICENSE        
+-a---- package.json                     C:\work\choi-bujang-secret-vault-5\node_modules\iceberg-js\package.json   
+-a---- README.md                        C:\work\choi-bujang-secret-vault-5\node_modules\iceberg-js\README.md      
+d----- dist                             C:\work\choi-bujang-secret-vault-5\node_modules\jose\dist                 
+-a---- LICENSE.md                       C:\work\choi-bujang-secret-vault-5\node_modules\jose\LICENSE.md           
+-a---- package.json                     C:\work\choi-bujang-secret-vault-5\node_modules\jose\package.json         
+-a---- README.md                        C:\work\choi-bujang-secret-vault-5\node_modules\jose\README.md            
+d----- modules                          C:\work\choi-bujang-secret-vault-5\node_modules\tslib\modules             
+-a---- CopyrightNotice.txt              C:\work\choi-bujang-secret-vault-5\node_modules\tslib\CopyrightNotice.txt 
+-a---- LICENSE.txt                      C:\work\choi-bujang-secret-vault-5\node_modules\tslib\LICENSE.txt         
+-a---- package.json                     C:\work\choi-bujang-secret-vault-5\node_modules\tslib\package.json        
+-a---- README.md                        C:\work\choi-bujang-secret-vault-5\node_modules\tslib\README.md           
+-a---- SECURITY.md                      C:\work\choi-bujang-secret-vault-5\node_modules\tslib\SECURITY.md         
+-a---- tslib.d.ts                       C:\work\choi-bujang-secret-vault-5\node_modules\tslib\tslib.d.ts          
+-a---- tslib.es6.html                   C:\work\choi-bujang-secret-vault-5\node_modules\tslib\tslib.es6.html      
+-a---- tslib.es6.js                     C:\work\choi-bujang-secret-vault-5\node_modules\tslib\tslib.es6.js        
+-a---- tslib.es6.mjs                    C:\work\choi-bujang-secret-vault-5\node_modules\tslib\tslib.es6.mjs       
+-a---- tslib.html                       C:\work\choi-bujang-secret-vault-5\node_modules\tslib\tslib.html          
+-a---- tslib.js                         C:\work\choi-bujang-secret-vault-5\node_modules\tslib\tslib.js            
+d----- self-check                       C:\work\choi-bujang-secret-vault-5\package\self-check                     
+-a---- ARCHITECTURE.md                  C:\work\choi-bujang-secret-vault-5\package\ARCHITECTURE.md                
+-a---- baseline-functions.json          C:\work\choi-bujang-secret-vault-5\package\baseline-functions.json        
+-a---- DEMO.md                          C:\work\choi-bujang-secret-vault-5\package\DEMO.md                        
+-a---- POLICIES.md                      C:\work\choi-bujang-secret-vault-5\package\POLICIES.md                    
+-a---- README.md                        C:\work\choi-bujang-secret-vault-5\package\README.md                      
+-a---- SELF-CHECK.md                    C:\work\choi-bujang-secret-vault-5\package\SELF-CHECK.md                  
+-a---- THREAT-INTEL.md                  C:\work\choi-bujang-secret-vault-5\package\THREAT-INTEL.md                
+-a---- .gitkeep                         C:\work\choi-bujang-secret-vault-5\package\self-check\.gitkeep            
+-a---- data.json                        C:\work\choi-bujang-secret-vault-5\public\data.json                       
+-a---- index.html                       C:\work\choi-bujang-secret-vault-5\public\index.html                      
+-a---- login.js                         C:\work\choi-bujang-secret-vault-5\public\login.js                        
+-a---- build-public.mjs                 C:\work\choi-bujang-secret-vault-5\scripts\build-public.mjs               
+-a---- bundle.mjs                       C:\work\choi-bujang-secret-vault-5\scripts\bundle.mjs                     
+-a---- decider-test.mjs                 C:\work\choi-bujang-secret-vault-5\scripts\decider-test.mjs               
+-a---- deployment-identity.mjs          C:\work\choi-bujang-secret-vault-5\scripts\deployment-identity.mjs        
+-a---- detect-test.mjs                  C:\work\choi-bujang-secret-vault-5\scripts\detect-test.mjs                
+-a---- fixture-7.mjs                    C:\work\choi-bujang-secret-vault-5\scripts\fixture-7.mjs                  
+-a---- xdr-run.mjs                      C:\work\choi-bujang-secret-vault-5\scripts\xdr-run.mjs                    
+-a---- attack-check.mjs                 C:\work\choi-bujang-secret-vault-5\src\attack-check.mjs                   
+-a---- decider.mjs                      C:\work\choi-bujang-secret-vault-5\src\decider.mjs                        
+-a---- detect.mjs                       C:\work\choi-bujang-secret-vault-5\src\detect.mjs                         
+-a---- verify-login.mjs                 C:\work\choi-bujang-secret-vault-5\src\verify-login.mjs                   
+-a---- login-ui.test.mjs                C:\work\choi-bujang-secret-vault-5\test\login-ui.test.mjs                 
+-a---- login-visibility.test.mjs        C:\work\choi-bujang-secret-vault-5\test\login-visibility.test.mjs         
+-a---- materials-crud.test.mjs          C:\work\choi-bujang-secret-vault-5\test\materials-crud.test.mjs           
+-a---- package-starter.test.mjs         C:\work\choi-bujang-secret-vault-5\test\package-starter.test.mjs          
+-a---- r5.test.mjs                      C:\work\choi-bujang-secret-vault-5\test\r5.test.mjs                       
+-a---- step2.test.mjs                   C:\work\choi-bujang-secret-vault-5\test\step2.test.mjs                    
+-a---- xdr-run.test.mjs                 C:\work\choi-bujang-secret-vault-5\test\xdr-run.test.mjs                  
+d----- fixtures                         C:\work\choi-bujang-secret-vault-5\xdr\fixtures                           
+-a---- README.md                        C:\work\choi-bujang-secret-vault-5\xdr\README.md                          
+-a---- brute-force.json                 C:\work\choi-bujang-secret-vault-5\xdr\fixtures\brute-force.json          
+-a---- exfiltration.json                C:\work\choi-bujang-secret-vault-5\xdr\fixtures\exfiltration.json         
+-a---- known-cve.json                   C:\work\choi-bujang-secret-vault-5\xdr\fixtures\known-cve.json            
+-a---- persistence.json                 C:\work\choi-bujang-secret-vault-5\xdr\fixtures\persistence.json          
+-a---- privilege.json                   C:\work\choi-bujang-secret-vault-5\xdr\fixtures\privilege.json            
+-a---- web-injection.json               C:\work\choi-bujang-secret-vault-5\xdr\fixtures\web-injection.json        
+
+
+

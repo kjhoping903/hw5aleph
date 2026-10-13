@@ -1,0 +1,29 @@
+
+The command exited with code 0.
+Output:
+deployment-source	https://github.com/kjhoping903/aleph-defense-starter.git (fetch)
+deployment-source	https://github.com/kjhoping903/aleph-defense-starter.git (push)
+origin	https://github.com/kjhoping903/aleph-defense-starter.git (fetch)
+origin	https://github.com/kjhoping903/aleph-defense-starter.git (push)
+previous-origin	https://github.com/kjhoping903/choi-bujang-secret-vault-5.git (fetch)
+previous-origin	https://github.com/kjhoping903/choi-bujang-secret-vault-5.git (push)
+On branch main
+Your branch is ahead of 'deployment-source/main' by 13 commits.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   api/materials.js
+	modified:   public/login.js
+	modified:   test/materials-crud.test.mjs
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	test/login-visibility.test.mjs
+
+no changes added to commit (use "git add" and/or "git commit -a")
+8854973 Fix discoverable notes API route for deployment
+9d7a912 3단계 저장점
+9a74c31 정적 응답에 nosniff 보안 헤더 추가
+

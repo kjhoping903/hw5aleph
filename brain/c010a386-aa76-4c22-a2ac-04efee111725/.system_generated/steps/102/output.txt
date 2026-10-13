@@ -1,0 +1,52 @@
+
+The command exited with code 1.
+Output:
+
+
+    �͸�: C:\Users\User\Desktop\sep13
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+d-----      2026-10-13   � 3:28                reproduce_test                                                       
+Cloning into 'C:\Users\User\Desktop\sep13\reproduce_test\m5d2_repro'...
+done.
+Note: switching to 'e2553bc836319ae862b4e84c2aab914b6464da2f'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by switching back to a branch.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -c with the switch command. Example:
+
+  git switch -c <new-branch-name>
+
+Or undo this operation with:
+
+  git switch -
+
+Turn off this advice by setting config variable advice.detachedHead to false
+
+HEAD is now at e2553bc chore: add gitignore for python cache
+============================================================
+� T05 � �˻� 10� � � (10 Fixed Checks)
+============================================================
+[PASS] T05-CHK-01: test_T05_CHK_01_primary_success
+[PASS] T05-CHK-02: test_T05_CHK_02_failover_on_rate_limit_429
+[PASS] T05-CHK-03: test_T05_CHK_03_failover_on_timeout
+[PASS] T05-CHK-04: test_T05_CHK_04_graceful_degradation_when_all_fail
+[PASS] T05-CHK-05: test_T05_CHK_05_markdown_json_schema_parsing
+[PASS] T05-CHK-06: test_T05_CHK_06_edge_case_null_empty_input
+[FAIL] T05-CHK-07: test_T05_CHK_07_consensus_evaluation --> FAIL
+[FAIL] T05-CHK-08: test_T05_CHK_08_budget_guard --> FAIL
+[FAIL] T05-CHK-09: test_T05_CHK_09_pii_secret_sanitizer --> FAIL
+[FAIL] T05-CHK-10: test_T05_CHK_10_audit_trace_telemetry --> FAIL
+------------------------------------------------------------
+� �˻�: 10 | �(PASS): 6 | �(FAIL): 4
+ù �° � �˻� ID: T05-CHK-07
+============================================================
+�˻� � � �Ϸ�: evidence/test_run_result.json
+
+
+

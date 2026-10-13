@@ -1,0 +1,21 @@
+
+The command exited with code 1.
+Output:
+  File "<string>", line 4
+    rows = conn.execute(" \\SELECT table_name FROM information_schema.tables WHERE table_schema = public
+                        ^
+SyntaxError: unterminated string literal (detected at line 4)
+\\\).fetchall()
+    print([r[0] for r in rows])
+ : '\\\).fetchall()
+    print([r[0] for r in rows])
+' � cmdlet, �Լ�, �ũ�Ʈ � �Ǵ� � � �ִ� �α׷� �̸� �νĵ� �ʽ�ϴ�. �̸� �Ȯ� Ȯ�ϰ� 
+�ΰ� �Ե� � �ΰ� �ùٸ� � � �ٽ� �õ�Ͻʽÿ�.
+�ġ �:4 �:110
++ ... mation_schema.tables WHERE table_schema = 'public';\"\"\").fetchall()
++                                                        ~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (\\\).fetchall()...or r in rows])
+:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+

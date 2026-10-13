@@ -1,0 +1,92 @@
+
+The command exited with code 0.
+Output:
+<truncated 106 lines>
+-a----      2026-10-06  � 10:10             29 create_database.sql                                                  
+-a----      2026-10-06  � 10:10            260 http_events.sql                                                      
+
+
+    �͸�: C:\work\mini-watch-day03-start\venv
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+d-----      2026-10-06  � 10:12                Include                                                              
+d-----      2026-10-06  � 10:12                Lib                                                                  
+d-----      2026-10-06  � 10:23                Scripts                                                              
+-a----      2026-10-06  � 10:12             71 .gitignore                                                           
+-a----      2026-10-06  � 10:12            318 pyvenv.cfg                                                           
+
+
+    �͸�: C:\work\mini-watch-day03-start\venv\Lib
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+d-----      2026-10-06  � 10:23                site-packages                                                        
+
+
+    �͸�: C:\work\mini-watch-day03-start\venv\Lib\site-packages
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+d-----      2026-10-06  � 10:23                blinker                                                              
+d-----      2026-10-06  � 10:23                blinker-1.9.0.dist-info                                              
+d-----      2026-10-06  � 10:23                certifi                                                              
+d-----      2026-10-06  � 10:23                certifi-2026.7.22.dist-info                                          
+d-----      2026-10-06  � 10:23                charset_normalizer                                                   
+d-----      2026-10-06  � 10:23                charset_normalizer-3.5.2.dist-info                                   
+d-----      2026-10-06  � 10:23                click                                                                
+d-----      2026-10-06  � 10:23                click-8.5.0.dist-info                                                
+d-----      2026-10-06  � 10:23                dotenv                                                               
+d-----      2026-10-06  � 10:23                flask                                                                
+d-----      2026-10-06  � 10:23                flask-3.1.3.dist-info                                                
+d-----      2026-10-06  � 10:23                idna                                                                 
+d-----      2026-10-06  � 10:23                idna-3.20.dist-info                                                  
+d-----      2026-10-06  � 10:23                itsdangerous                                                         
+d-----      2026-10-06  � 10:23                itsdangerous-2.2.0.dist-info                                         
+d-----      2026-10-06  � 10:23                jinja2                                                               
+d-----      2026-10-06  � 10:23                jinja2-3.1.6.dist-info                                               
+d-----      2026-10-06  � 10:23                markupsafe                                                           
+d-----      2026-10-06  � 10:23                markupsafe-3.0.4.dist-info                                           
+d-----      2026-10-06  � 10:12                pip                                                                  
+d-----      2026-10-06  � 10:12                pip-26.2.1.dist-info                                                 
+d-----      2026-10-06  � 10:23                psycopg                                                              
+d-----      2026-10-06  � 10:23                psycopg-3.2.10.dist-info                                             
+d-----      2026-10-06  � 10:23                psycopg_binary                                                       
+d-----      2026-10-06  � 10:23                psycopg_binary-3.2.10.dist-info                                      
+d-----      2026-10-06  � 10:23                psycopg_binary.libs                                                  
+d-----      2026-10-06  � 10:23                python_dotenv-1.2.1.dist-info                                        
+d-----      2026-10-06  � 10:23                requests                                                             
+d-----      2026-10-06  � 10:23                requests-2.32.5.dist-info                                            
+d-----      2026-10-06  � 10:23                tzdata                                                               
+d-----      2026-10-06  � 10:23                tzdata-2026.5.dist-info                                              
+d-----      2026-10-06  � 10:23                urllib3                                                              
+d-----      2026-10-06  � 10:23                urllib3-2.8.0.dist-info                                              
+d-----      2026-10-06  � 10:23                werkzeug                                                             
+d-----      2026-10-06  � 10:23                werkzeug-3.1.9.dist-info                                             
+
+
+    �͸�: C:\work\mini-watch-day03-start\venv\Scripts
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+-a----      2026-10-06  � 10:12           2204 activate                                                             
+-a----      2026-10-06  � 10:12           1095 activate.bat                                                         
+-a----      2026-10-06  � 10:12           2270 activate.fish                                                        
+-a----      2026-10-06  � 10:12          29029 Activate.ps1                                                         
+-a----      2026-10-06  � 10:12            393 deactivate.bat                                                       
+-a----      2026-10-06  � 10:23         108350 dotenv.exe                                                           
+-a----      2026-10-06  � 10:23         108346 flask.exe                                                            
+-a----      2026-10-06  � 10:23         108345 idna.exe                                                             
+-a----      2026-10-06  � 10:23         108371 normalizer.exe                                                       
+-a----      2026-10-06  � 10:12         108359 pip.exe                                                              
+-a----      2026-10-06  � 10:12         108359 pip3.13.exe                                                          
+-a----      2026-10-06  � 10:12         108359 pip3.exe                                                             
+-a----      2026-08-05   � 2:15         255200 python.exe                                                           
+-a----      2026-08-05   � 2:15         251616 pythonw.exe                                                          
+
+
+

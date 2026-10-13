@@ -1,0 +1,12 @@
+
+The command exited with code 0.
+Output:
+commit b36921075e65e3e6fb6b2977ba972ce1544c4626
+Author: Kim Jaeho <kimjaeho0903@gmail.com>
+Date:   Tue Oct 13 12:40:38 2026 +0900
+
+    Restrict decider to registered device note reads
+
+ src/decider.mjs | 26 +++++++++++++++++---------
+ 1 file changed, 17 insertions(+), 9 deletions(-)
+

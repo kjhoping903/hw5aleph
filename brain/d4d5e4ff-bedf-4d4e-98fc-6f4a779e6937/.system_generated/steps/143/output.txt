@@ -1,0 +1,11 @@
+
+The command exited with code 0.
+Output:
+=== 1. � �׽�Ʈ ===
+=== 2. � �ȣ �׽�Ʈ ===
+=== 3. �û � � � �ȸ/�/� �׽�Ʈ ===
+Events count: 10, Total: 10, Errors: 4
+=== 4. �޸� CRUD � �ȿ� �˻� �׽�Ʈ ===
+=== 5. �α׾ƿ� �׽�Ʈ ===
+ALL INTEGRATION TESTS PASSED SUCCESSFULLY!
+

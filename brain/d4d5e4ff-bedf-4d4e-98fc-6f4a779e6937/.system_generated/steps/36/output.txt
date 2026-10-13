@@ -1,0 +1,10 @@
+
+The command exited with code 0.
+Output:
+
+Status   Name               DisplayName                           
+------   ----               -----------                           
+Running  postgresql-x64-16  postgresql-x64-16                     
+
+
+

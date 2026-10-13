@@ -1,0 +1,17 @@
+
+The command exited with code 0.
+Output:
+
+
+    �͸�: C:\Users\User\Desktop\sep13\m5d2
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+d-----      2026-10-13  � 11:15                docs                                                                 
+d-----      2026-10-13  � 11:15                evidence                                                             
+-a----      2026-10-13  � 11:15           1785 handover.md                                                          
+-a----      2026-10-13  � 11:13             11 README.md                                                            
+
+
+

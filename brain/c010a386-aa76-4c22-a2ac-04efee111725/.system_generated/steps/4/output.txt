@@ -1,0 +1,38 @@
+
+The command exited with code 0.
+Output:
+
+
+    �͸�: C:\Users\User
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+d-----      2026-08-27  � 11:07                .cache                                                               
+d-----      2026-08-28   � 3:03                .claude                                                              
+d-----      2026-10-13   � 3:15                .codex                                                               
+d-----      2026-09-16  � 12:13                .config                                                              
+d-----      2026-10-13  � 11:09                .copilot                                                             
+d-----      2026-10-12  � 10:26                .docker                                                              
+d-----      2026-10-06  � 10:16                .gemini                                                              
+d-----      2026-10-06   � 2:30                .ollama                                                              
+d-----      2026-09-16  � 12:10                .VirtualBox                                                          
+d-----      2026-09-21  � 12:02                .vscode                                                              
+d-----      2026-08-24   � 9:46                .vscode-shared                                                       
+d-----      2026-09-15   � 3:31                Cisco Packet Tracer 9.0.1                                            
+d-r---      2026-08-21   � 9:40                Contacts                                                             
+d-r---      2026-10-13   � 3:18                Desktop                                                              
+d-r---      2026-10-13  � 10:02                Documents                                                            
+d-r---      2026-10-13  � 10:41                Downloads                                                            
+d-r---      2026-08-21   � 9:40                Favorites                                                            
+d-r---      2026-08-21   � 9:40                Links                                                                
+d-r---      2026-08-21   � 9:40                Music                                                                
+d-r---      2026-08-21   � 9:41                OneDrive                                                             
+d-r---      2026-09-17   � 8:55                Pictures                                                             
+d-r---      2026-08-21   � 9:40                Saved Games                                                          
+d-r---      2026-08-21  � 10:24                Searches                                                             
+d-r---      2026-08-21  � 10:53                Videos                                                               
+d-----      2026-09-16  � 10:41                VirtualBox VMs                                                       
+
+
+

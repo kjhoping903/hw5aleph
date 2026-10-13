@@ -1,0 +1,9 @@
+
+The command exited with code 0.
+Output:
+b369210 Restrict decider to registered device note reads
+a4f0499 6단계 저장점: 등록 기기 판정과 제출 점검
+488c845 5단계 저장점: 서버 자료 요청과 원본 API 경로 기록
+7f5f9d6 feat: update README and implement API for status cards; remove sample marker from data files
+fb56cb9 Fix stage 4 build and deployment identity guards
+

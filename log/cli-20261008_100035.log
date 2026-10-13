@@ -1,0 +1,80 @@
+I1008 10:00:35.516556      66 server.go:1625] Starting language server process with pid 9892
+I1008 10:00:35.522339      66 server.go:1676] Language server version: 2.21.0
+I1008 10:00:35.522339      66 server.go:628] Language server will attempt to listen on host localhost
+I1008 10:00:35.533793      66 server.go:643] Language server listening on random port at 61097 for HTTPS (gRPC)
+I1008 10:00:35.534322      66 server.go:651] Language server listening on random port at 49217 for HTTP
+I1008 10:00:35.849730      66 auth_provider.go:1323] [AuthProvider] SetEnableBusinessLogin called with enable: true
+I1008 10:00:35.853524      66 auth_provider.go:1255] [AuthProvider] SetProjectID called with projectID: ""
+I1008 10:00:35.853524      66 auth_provider.go:1263] [AuthProvider] SetLocation called with location: ""
+I1008 10:00:35.853524      66 auth_provider.go:1271] [AuthProvider] SetUserTier called with userTier: "", tierDisplayName: ""
+I1008 10:00:35.965413      12 store_client.go:697] summary store: starting background reconciliation (trigger=startup)
+I1008 10:00:35.973347      12 store_client.go:747] summary store: reconciliation complete, synced 2 records
+I1008 10:00:36.279074      30 auth_provider.go:1255] [AuthProvider] SetProjectID called with projectID: ""
+I1008 10:00:36.279074      30 auth_provider.go:1263] [AuthProvider] SetLocation called with location: ""
+I1008 10:00:36.279074      30 auth_provider.go:1271] [AuthProvider] SetUserTier called with userTier: "", tierDisplayName: ""
+I1008 10:00:37.819258      30 http_helpers.go:315] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0xb690e186aa6d7b64
+I1008 10:00:37.886575     131 http_helpers.go:315] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0xdb33144580e08be5
+I1008 10:00:39.165133     131 http_helpers.go:315] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0xb53868fa0952ebcc
+I1008 10:00:39.201921     131 remote_agent.go:159] Remote agent fastpush pin gate changed: false -> true
+W1008 10:00:39.220283      66 defaults.go:710] failed to get cs path: cs path /usr/bin/cs invalid
+I1008 10:00:39.221981      66 manager.go:108] Creating trajectory store manager with proto store and SQLite store
+I1008 10:00:39.238273     245 manager.go:88] Migration [MIGRATION_ID_SIDECAR_USER_CONFIG_BYPASS] is disabled, skipping entirely
+I1008 10:00:39.239324     245 manager.go:91] Migration [MIGRATION_ID_SANITY_CHECK_PROJECT_URIS] is enabled
+I1008 10:00:39.239847     245 manager.go:100] Migration [MIGRATION_ID_SANITY_CHECK_PROJECT_URIS] already has status MIGRATION_STATUS_COMPLETED, skipping
+I1008 10:00:39.239847     245 manager.go:91] Migration [MIGRATION_ID_PLUGIN_ENABLEMENT] is enabled
+I1008 10:00:39.239847     245 manager.go:100] Migration [MIGRATION_ID_PLUGIN_ENABLEMENT] already has status MIGRATION_STATUS_COMPLETED, skipping
+I1008 10:00:39.239847     245 manager.go:91] Migration [MIGRATION_ID_BUILTIN_SIDECARS_TO_PLUGINS] is enabled
+I1008 10:00:39.240372     245 manager.go:100] Migration [MIGRATION_ID_BUILTIN_SIDECARS_TO_PLUGINS] already has status MIGRATION_STATUS_COMPLETED, skipping
+I1008 10:00:39.240372     245 manager.go:88] Migration [MIGRATION_ID_LIN_BUILTIN_TO_MARKETPLACE] is disabled, skipping entirely
+I1008 10:00:39.240372     245 manager.go:91] Migration [MIGRATION_ID_ADOPT_BWG_INSTALLS] is enabled
+I1008 10:00:39.240372     245 manager.go:100] Migration [MIGRATION_ID_ADOPT_BWG_INSTALLS] already has status MIGRATION_STATUS_COMPLETED, skipping
+I1008 10:00:39.240372     245 manager.go:88] Migration [MIGRATION_ID_PERMISSION_GRANTS_V2] is disabled, skipping entirely
+I1008 10:00:39.272283      66 server.go:1431] Serving UI bundle from embedded assets
+I1008 10:00:39.272283      66 server.go:3170] Auth succeeded, refreshing features and managers
+I1008 10:00:39.662939      66 server.go:3177] State refresh took 389ms
+I1008 10:00:39.663510      66 server.go:3188] [RemoteControl] Subscription callback triggered.
+I1008 10:00:39.663510      66 server.go:3191] [RemoteControl] RemoteControlEnabled value: false
+I1008 10:00:39.664043      66 server.go:3926] [RemoteControl] CLI launched without --remote-control, staying disconnected
+I1008 10:00:39.664043      66 server.go:3629] [RemoteControl] Resolved proxyServerURL: ""
+I1008 10:00:39.664043      66 server.go:3216] Retroactive projects migration enabled: true
+I1008 10:00:39.666268      66 projects_migration.go:552] Projects migration already started or completed, skipping
+I1008 10:00:39.669131     254 reconcile_summaries.go:94] [Summaries] reconcile checked 2 conversations, restored 0, cached 2, skipped 0, dropped 0, cancelled false in 0ms (resident: 0 -> 0)
+I1008 10:00:39.668542     255 manager.go:88] Migration [MIGRATION_ID_SIDECAR_USER_CONFIG_BYPASS] is disabled, skipping entirely
+I1008 10:00:39.669713     255 manager.go:91] Migration [MIGRATION_ID_SANITY_CHECK_PROJECT_URIS] is enabled
+I1008 10:00:39.669131      66 profiler.go:231] Continuous pprof profiling is disabled.
+I1008 10:00:39.670338     255 manager.go:100] Migration [MIGRATION_ID_SANITY_CHECK_PROJECT_URIS] already has status MIGRATION_STATUS_COMPLETED, skipping
+I1008 10:00:39.670338     255 manager.go:91] Migration [MIGRATION_ID_PLUGIN_ENABLEMENT] is enabled
+I1008 10:00:39.670338     255 manager.go:100] Migration [MIGRATION_ID_PLUGIN_ENABLEMENT] already has status MIGRATION_STATUS_COMPLETED, skipping
+I1008 10:00:39.670338     255 manager.go:91] Migration [MIGRATION_ID_BUILTIN_SIDECARS_TO_PLUGINS] is enabled
+I1008 10:00:39.670860     255 manager.go:100] Migration [MIGRATION_ID_BUILTIN_SIDECARS_TO_PLUGINS] already has status MIGRATION_STATUS_COMPLETED, skipping
+I1008 10:00:39.670860     255 manager.go:88] Migration [MIGRATION_ID_LIN_BUILTIN_TO_MARKETPLACE] is disabled, skipping entirely
+I1008 10:00:39.670860     255 manager.go:91] Migration [MIGRATION_ID_ADOPT_BWG_INSTALLS] is enabled
+I1008 10:00:39.670860     255 manager.go:100] Migration [MIGRATION_ID_ADOPT_BWG_INSTALLS] already has status MIGRATION_STATUS_COMPLETED, skipping
+I1008 10:00:39.670860     255 manager.go:88] Migration [MIGRATION_ID_PERMISSION_GRANTS_V2] is disabled, skipping entirely
+I1008 10:00:39.675464      66 server.go:2605] initialized server successfully in 4.1589079s
+I1008 10:06:37.109414     543 http_helpers.go:315] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x1adf3a2fa5032db8
+I1008 10:06:37.627840     640 http_helpers.go:315] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0xcda9d6f634e99c9a
+I1008 10:12:36.941910    1021 http_helpers.go:315] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x547e0ba95ca6427d
+I1008 10:12:37.301309    1063 http_helpers.go:315] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x5981b8ae01f00caf
+I1008 10:18:36.908736    1474 http_helpers.go:315] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x33e0f23304da9437
+I1008 10:18:37.257841    1441 http_helpers.go:315] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x1c2dc1f22d9278f7
+I1008 10:24:37.032853    1842 http_helpers.go:315] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x95ef8b4b1d663735
+I1008 10:24:37.141784    1820 http_helpers.go:315] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0xeee2b21fd77ff8a2
+I1008 10:30:36.886926    2185 http_helpers.go:315] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x66c7b494bbca50e7
+I1008 10:30:37.090130    2214 http_helpers.go:315] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0xb1c3f2df5ee1532e
+I1008 10:36:36.876450    2513 http_helpers.go:315] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x66df09d6d7d13b49
+I1008 10:36:37.067885    2578 http_helpers.go:315] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0xe2c0264901821ae
+I1008 10:42:36.792397    2585 http_helpers.go:315] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0xc483cfc933995c0e
+I1008 10:42:38.444087    2979 http_helpers.go:315] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x32cce17b5a21fa96
+I1008 10:48:36.676838    3344 http_helpers.go:315] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0xbd2086a1d8b8aced
+I1008 10:48:37.192519    3308 http_helpers.go:315] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x719dbd56e54efb63
+I1008 10:54:36.778350    3685 http_helpers.go:315] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x8445ae410c17fe00
+I1008 10:54:37.192879    3683 http_helpers.go:315] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0xda9be4a4fc8aecca
+I1008 11:00:37.073292    4124 http_helpers.go:315] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x1a749709c18e74ee
+I1008 11:00:37.191341    4134 http_helpers.go:315] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x6bf79a5e5cec43a7
+I1008 11:06:36.802014    4509 http_helpers.go:315] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0xc2f7d9d80c486ced
+I1008 11:06:37.222031    4519 http_helpers.go:315] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0xbc69ad2e627af720
+I1008 11:12:37.049730    4911 http_helpers.go:315] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x17a7bf147dfd0b7d
+I1008 11:12:37.109891    4806 http_helpers.go:315] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0xf6b6a53d5eb47839
+I1008 11:18:36.506455    5254 http_helpers.go:315] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x2527cfb5952f55ad
+I1008 11:18:36.962233    5288 http_helpers.go:315] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x29fd2aa7202dfce0

@@ -1,0 +1,8 @@
+
+The command exited with code 1.
+Output:
+  File "<string>", line 43
+    print(f'Events count: {len(events)}, Total: {summary[" total_count\]},
+                                                         ^
+SyntaxError: unterminated string literal (detected at line 43)
+

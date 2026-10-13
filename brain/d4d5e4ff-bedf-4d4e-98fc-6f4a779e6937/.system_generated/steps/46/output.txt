@@ -1,0 +1,8 @@
+
+The command exited with code 1.
+Output:
+  File "<string>", line 1
+    import psycopg; conn = psycopg.connect('host=127.0.0.1 port=5432 dbname=monitor_db user=postgres password=1234'); print([r[0] for r in conn.execute(SELECT
+                                                                                                                                                       ^
+SyntaxError: '(' was never closed
+

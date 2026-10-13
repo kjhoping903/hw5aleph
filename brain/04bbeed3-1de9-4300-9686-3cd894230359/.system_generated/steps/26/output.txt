@@ -1,0 +1,15 @@
+
+The command exited with code 0.
+Output:
+
+
+    �͸�: C:\work\choi-bujang-secret-vault-5\docs
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+-a----      2026-10-06  � 12:03           4246 DECIDER_REQUEST.md                                                   
+-a----      2026-10-06  � 12:03           1120 DETECT_EVENTS.md                                                     
+
+
+

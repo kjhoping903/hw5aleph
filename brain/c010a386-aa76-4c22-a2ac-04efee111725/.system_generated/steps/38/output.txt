@@ -1,0 +1,22 @@
+
+The command exited with code 0.
+Output:
+t04-real-information-board-public-v1/README.md
+t04-real-information-board-public-v1/adapter-reset.example.js
+t04-real-information-board-public-v1/asset-manifest.json
+t04-real-information-board-public-v1/criterion-registry.json
+t04-real-information-board-public-v1/fixture-manifest.json
+t04-real-information-board-public-v1/fixture.schema.json
+t04-real-information-board-public-v1/fixtures/auth-401.json
+t04-real-information-board-public-v1/fixtures/normal-d1-a.json
+t04-real-information-board-public-v1/fixtures/normal-d1-b.json
+t04-real-information-board-public-v1/fixtures/normal-d2.json
+t04-real-information-board-public-v1/fixtures/offline.json
+t04-real-information-board-public-v1/fixtures/rate-429.json
+t04-real-information-board-public-v1/fixtures/recover-d2.json
+t04-real-information-board-public-v1/fixtures/schema-break.json
+t04-real-information-board-public-v1/fixtures/timeout.json
+t04-real-information-board-public-v1/normalized-reading.schema.json
+t04-real-information-board-public-v1/public-contract.json
+t04-real-information-board-public-v1/reading-status.schema.json
+

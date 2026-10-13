@@ -1,0 +1,55 @@
+I1013 11:09:43.458751      37 server.go:1631] Starting language server process with pid 17920
+I1013 11:09:43.465036      37 server.go:1682] Language server version: 2.22.0
+I1013 11:09:43.465036      37 server.go:634] Language server will attempt to listen on host localhost
+I1013 11:09:43.474998      37 server.go:649] Language server listening on random port at 60654 for HTTPS (gRPC)
+I1013 11:09:43.476034      37 server.go:657] Language server listening on random port at 59487 for HTTP
+I1013 11:09:43.728986      37 auth_provider.go:1323] [AuthProvider] SetEnableBusinessLogin called with enable: true
+I1013 11:09:43.728986      37 auth_provider.go:1255] [AuthProvider] SetProjectID called with projectID: ""
+I1013 11:09:43.728986      37 auth_provider.go:1263] [AuthProvider] SetLocation called with location: ""
+I1013 11:09:43.728986      37 auth_provider.go:1271] [AuthProvider] SetUserTier called with userTier: "", tierDisplayName: ""
+I1013 11:09:43.758359     103 store_client.go:697] summary store: starting background reconciliation (trigger=startup)
+I1013 11:09:43.758359     103 store_client.go:747] summary store: reconciliation complete, synced 3 records
+I1013 11:09:43.907719      49 auth_provider.go:1255] [AuthProvider] SetProjectID called with projectID: ""
+I1013 11:09:43.907719      49 auth_provider.go:1263] [AuthProvider] SetLocation called with location: ""
+I1013 11:09:43.907719      49 auth_provider.go:1271] [AuthProvider] SetUserTier called with userTier: "", tierDisplayName: ""
+I1013 11:09:45.106443      32 http_helpers.go:315] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x7525a1359cfccec8
+I1013 11:09:45.238297      49 http_helpers.go:315] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0xfda4d680943ec3f0
+I1013 11:09:45.960626     155 http_helpers.go:315] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0xaede4215f05c42d2
+I1013 11:09:46.518229      32 http_helpers.go:315] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x897cdc1ab2f26979
+I1013 11:09:46.526025      32 remote_agent.go:164] Remote agent fastpush pin gate changed: false -> true
+W1013 11:09:46.528104      37 defaults.go:710] failed to get cs path: cs path /usr/bin/cs invalid
+I1013 11:09:46.528104      37 manager.go:108] Creating trajectory store manager with proto store and SQLite store
+I1013 11:09:46.530173     205 manager.go:88] Migration [MIGRATION_ID_SIDECAR_USER_CONFIG_BYPASS] is disabled, skipping entirely
+I1013 11:09:46.530173     205 manager.go:91] Migration [MIGRATION_ID_SANITY_CHECK_PROJECT_URIS] is enabled
+I1013 11:09:46.530173     205 manager.go:100] Migration [MIGRATION_ID_SANITY_CHECK_PROJECT_URIS] already has status MIGRATION_STATUS_COMPLETED, skipping
+I1013 11:09:46.530173     205 manager.go:91] Migration [MIGRATION_ID_PLUGIN_ENABLEMENT] is enabled
+I1013 11:09:46.530692     205 manager.go:100] Migration [MIGRATION_ID_PLUGIN_ENABLEMENT] already has status MIGRATION_STATUS_COMPLETED, skipping
+I1013 11:09:46.530692     205 manager.go:91] Migration [MIGRATION_ID_BUILTIN_SIDECARS_TO_PLUGINS] is enabled
+I1013 11:09:46.530692     205 manager.go:100] Migration [MIGRATION_ID_BUILTIN_SIDECARS_TO_PLUGINS] already has status MIGRATION_STATUS_COMPLETED, skipping
+I1013 11:09:46.530692     205 manager.go:88] Migration [MIGRATION_ID_LIN_BUILTIN_TO_MARKETPLACE] is disabled, skipping entirely
+I1013 11:09:46.530692     205 manager.go:91] Migration [MIGRATION_ID_ADOPT_BWG_INSTALLS] is enabled
+I1013 11:09:46.530692     205 manager.go:100] Migration [MIGRATION_ID_ADOPT_BWG_INSTALLS] already has status MIGRATION_STATUS_COMPLETED, skipping
+I1013 11:09:46.530692     205 manager.go:88] Migration [MIGRATION_ID_PERMISSION_GRANTS_V2] is disabled, skipping entirely
+I1013 11:09:46.537045      37 server.go:1437] Serving UI bundle from embedded assets
+I1013 11:09:46.537045      37 server.go:3206] Auth succeeded, refreshing features and managers
+I1013 11:09:46.935020      37 server.go:3213] State refresh took 397ms
+I1013 11:09:46.935020      37 server.go:3224] [RemoteControl] Subscription callback triggered.
+I1013 11:09:46.935020      37 server.go:3227] [RemoteControl] RemoteControlEnabled value: false
+I1013 11:09:46.935020      37 server.go:3973] [RemoteControl] CLI launched without --remote-control, staying disconnected
+I1013 11:09:46.935020      37 server.go:3676] [RemoteControl] Resolved proxyServerURL: ""
+I1013 11:09:46.935020      37 server.go:3252] Retroactive projects migration enabled: true
+I1013 11:09:46.935539      37 projects_migration.go:552] Projects migration already started or completed, skipping
+I1013 11:09:46.936062     217 reconcile_summaries.go:94] [Summaries] reconcile checked 3 conversations, restored 0, cached 3, skipped 0, dropped 0, cancelled false in 0ms (resident: 0 -> 0)
+I1013 11:09:46.944415     224 manager.go:88] Migration [MIGRATION_ID_SIDECAR_USER_CONFIG_BYPASS] is disabled, skipping entirely
+I1013 11:09:46.944415     224 manager.go:91] Migration [MIGRATION_ID_SANITY_CHECK_PROJECT_URIS] is enabled
+I1013 11:09:46.944415      37 profiler.go:231] Continuous pprof profiling is disabled.
+I1013 11:09:46.944415     224 manager.go:100] Migration [MIGRATION_ID_SANITY_CHECK_PROJECT_URIS] already has status MIGRATION_STATUS_COMPLETED, skipping
+I1013 11:09:46.944415     224 manager.go:91] Migration [MIGRATION_ID_PLUGIN_ENABLEMENT] is enabled
+I1013 11:09:46.944415     224 manager.go:100] Migration [MIGRATION_ID_PLUGIN_ENABLEMENT] already has status MIGRATION_STATUS_COMPLETED, skipping
+I1013 11:09:46.944941     224 manager.go:91] Migration [MIGRATION_ID_BUILTIN_SIDECARS_TO_PLUGINS] is enabled
+I1013 11:09:46.944941     224 manager.go:100] Migration [MIGRATION_ID_BUILTIN_SIDECARS_TO_PLUGINS] already has status MIGRATION_STATUS_COMPLETED, skipping
+I1013 11:09:46.944941     224 manager.go:88] Migration [MIGRATION_ID_LIN_BUILTIN_TO_MARKETPLACE] is disabled, skipping entirely
+I1013 11:09:46.944941     224 manager.go:91] Migration [MIGRATION_ID_ADOPT_BWG_INSTALLS] is enabled
+I1013 11:09:46.944941     224 manager.go:100] Migration [MIGRATION_ID_ADOPT_BWG_INSTALLS] already has status MIGRATION_STATUS_COMPLETED, skipping
+I1013 11:09:46.944941     224 manager.go:88] Migration [MIGRATION_ID_PERMISSION_GRANTS_V2] is disabled, skipping entirely
+I1013 11:09:46.945460      37 server.go:2633] initialized server successfully in 3.4861855s

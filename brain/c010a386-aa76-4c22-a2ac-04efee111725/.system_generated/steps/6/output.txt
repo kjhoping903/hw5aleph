@@ -1,0 +1,58 @@
+
+The command exited with code 0.
+Output:
+
+
+    �͸�: C:\Users\User\Desktop
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+d-----      2026-09-04   � 5:16                (7) �ڷ� _ Notion_files                                            
+d-----      2026-10-06   � 2:43                card studio                                                          
+d-----      2026-10-06  � 10:54                choi-bujang-secret-vault                                             
+d-----      2026-09-10  � 11:42                cisco                                                                
+d-----      2026-09-23   � 2:13                gayya                                                                
+d-----      2026-09-15   � 3:44                GitHub                                                               
+d-----      2026-09-23   � 9:27                login-watchdog                                                       
+d-----      2026-09-21   � 2:45                security-agent-toolkit                                               
+d-----      2026-10-13  � 11:13                sep13                                                                
+d-----      2026-10-13  � 10:03                sheld                                                                
+d-----      2026-08-21  � 10:37                �溯�                                                             
+d-----      2026-08-24   � 9:25                �ű� �ʱ� �                                           
+-a----      2026-09-04   � 5:15        1438162 (7) �ڷ� _ Notion.html                                             
+-a----      2026-10-06   � 9:36         112720 01-view.webp                                                         
+-a----      2026-10-06   � 5:03           1318 ALEPH �ũ�ġ.lnk                                                   
+-a----      2026-09-04   � 3:04           1088 Cisco Packet Tracer.lnk                                              
+-a----      2026-09-14  � 10:47            757 company.json                                                         
+-a----      2026-09-17  � 12:08            755 company22.json                                                       
+-a----      2026-10-12   � 3:45            594 compose-data.yaml                                                    
+-a----      2026-10-06   � 9:38         140836 DDDD.jpg                                                             
+-a----      2026-09-16  � 12:05           2307 Docker Desktop.lnk                                                   
+-a----      2026-09-07   � 3:08          58558 dsfsaf.pkt                                                           
+-a----      2026-09-15   � 3:31          72967 fhdgfgdf.pkt                                                         
+-a----      2026-10-02  � 11:12           2362 GitHub Desktop.lnk                                                   
+-a----      2026-08-31   � 4:50         115863 KakaoTalk_20260827_173432405.png                                     
+-a----      2026-09-14  � 10:46             10 sep 14.py                                                            
+-a----      2026-09-15  � 10:07            899 server.py                                                            
+-a----      2026-08-28  � 10:15            368 Untitled-2.py                                                        
+-a----      2026-08-24   � 9:45           1397 Visual Studio Code.lnk                                               
+-a----      2026-09-03   � 3:08           1835 Wireshark.lnk                                                        
+-a----      2026-08-27   � 5:14          24642 [�ȣ] README v1 0 8f871746fe0a82a2afa6015b0d2c384c.md             
+-a----      2026-10-13   � 3:18           9967 �ο� 1.txt                                                         
+-a----      2026-10-06   � 9:45          23973 �.jpg                                                             
+-a----      2026-09-17  � 12:19           1718 �ڿ�_�Ʈ�_�ٽ�_�.html                       
+
+
+    �͸�: C:\Users\User\Documents
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+d-----      2026-10-12   � 4:17                Codex                                                                
+d-----      2026-10-06  � 10:00                login-watchdog                                                       
+d-----      2026-10-07  � 10:21                WindowsPowerShell                                                    
+d-----      2026-10-02   � 5:00                īī� � �                                                   
+
+
+

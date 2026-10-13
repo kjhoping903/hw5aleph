@@ -1,0 +1,28 @@
+
+The command exited with code 0.
+Output:
+
+
+    �͸�: C:\Users\User\.gemini\antigravity
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+d-----      2026-10-13   � 3:18                annotations                                                          
+d-----      2026-10-13   � 3:15                bin                                                                  
+d-----      2026-10-13   � 3:18                brain                                                                
+d-----      2026-10-13   � 3:00                builtin                                                              
+d-----      2026-10-13   � 3:18                conversations                                                        
+d-----      2026-10-13   � 3:00                crashes                                                              
+d-----      2026-10-13   � 3:00                log                                                                  
+d-----      2026-10-13  � 12:41                presence                                                             
+-a----      2026-10-13   � 3:18           4670 agyhub_summaries_proto.pb                                            
+-a----      2026-10-08   � 4:20            872 antigravity_state.pbtxt                                              
+-a----      2026-10-13   � 3:00              0 cli.log                                                              
+-a----      2026-10-13   � 3:01         266240 conversation_summaries.db                                            
+-a----      2026-10-13   � 3:18          32768 conversation_summaries.db-shm                                        
+-a----      2026-10-13   � 3:18             32 conversation_summaries.db-wal                                        
+-a----      2026-10-06  � 10:16             36 installation_id                                                      
+
+
+
