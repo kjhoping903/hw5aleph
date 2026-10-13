@@ -1,0 +1,45 @@
+{
+  "executed_at": "2026-10-13T07:12:47.451101+00:00",
+  "kind": "local_http_not_docker",
+  "host": "127.0.0.1",
+  "port": 54996,
+  "results": [
+    {
+      "path": "/api/hello",
+      "http_status": 200,
+      "body": {
+        "message": "Hello",
+        "place": "DAEJEON",
+        "version": "v2"
+      },
+      "passed": true
+    },
+    {
+      "path": "/api/health",
+      "http_status": 200,
+      "body": {
+        "service": "t05-stateless-handover",
+        "status": "ok"
+      },
+      "passed": true
+    },
+    {
+      "path": "/api/info",
+      "http_status": 200,
+      "body": {
+        "handover": true,
+        "project": "T05 Stateless Handover Lab",
+        "runtime": "Flask"
+      },
+      "passed": true
+    },
+    {
+      "path": "/api/not-found",
+      "http_status": 404,
+      "body": {
+        "error": "not_found"
+      },
+      "passed": true
+    }
+  ]
+}

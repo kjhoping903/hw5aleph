@@ -1,5 +1,5 @@
 {
-  "status": "in_progress",
+  "status": "a_local_work_complete_before_push",
   "first_observed_at": "2026-10-13T06:54:45Z",
   "a_implementation_started_at": "2026-10-13T06:57:59Z",
   "limits": {
@@ -9,7 +9,7 @@
     "whole_project_minutes": 300
   },
   "user_requests": 1,
-  "tool_calls": null,
+  "tool_calls": 39,
   "internal_calls": {
     "measurement_status": "unavailable",
     "value": null
@@ -18,5 +18,14 @@
     "measurement_status": "unavailable",
     "value": null
   },
-  "note": "First request receipt timestamp unavailable; setup observations are recorded separately."
+  "note": "First request receipt timestamp unavailable; setup observations are recorded separately.",
+  "a_local_ended_at": "2026-10-13T07:13:36.721219+00:00",
+  "setup_plus_a_wall_seconds": 1131.721219,
+  "a_implementation_wall_seconds": 937.721219,
+  "clock_basis": "UTC wall clock; whole-session monotonic clock unavailable",
+  "tool_count_scope": "Observed atomic nested tool actions and wait calls since pasted request; functions.exec wrappers not counted twice. Future push/B orchestration excluded and recorded separately.",
+  "observable_request_plus_call_count": 40,
+  "within_observed_call_limit": true,
+  "within_time_limit": true,
+  "initial_request_received_at": null
 }

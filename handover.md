@@ -69,3 +69,7 @@ A 기능 개선 시작 관측: 2026-10-13T06:57:59Z. 시작 커밋은 위 SHA.
 상한: 세션 90분·관측 가능한 사용자 요청+도구 호출 60회. 내부 호출·토큰은 unavailable.
 서비스: Codex. 런타임 설명 모델 GPT-6. 플랫폼 세부 모델 표시 ID: 미확인.
 문서가 포함된 자기 커밋 SHA를 같은 커밋에 넣지 않는다. 전달 커밋 URL은 커밋 후 외부 manifest에서 확정한다.
+
+A 구현 커밋: d893086a8eb9fab4521070ca2a84fea8c7f24129. 최종 전달은 `t05-a-handover` 태그를 사용한다. B는 Clone 후 `git checkout t05-a-handover`로 정확한 전달 상태를 선택한다.
+
+로컬 실제 HTTP 보조 검사: hello/health/info/404 4건 모두 기대 상태·JSON 일치. evidence/local-http-results.json 참조. Docker 시험과 구분한다.

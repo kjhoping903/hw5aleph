@@ -108,3 +108,7 @@ README의 Windows/Linux/Python/Docker 명령을 따른다. `python -m pytest tes
 | T05-C52 | 미확인 | 상세 기준 미확인; 식별자만 제공됨 |
 | T05-C53 | 미확인 | 상세 기준 미확인; 식별자만 제공됨 |
 
+
+A 구현 커밋: d893086a8eb9fab4521070ca2a84fea8c7f24129. 최종 전달은 `t05-a-handover` 태그를 사용한다. B는 Clone 후 `git checkout t05-a-handover`로 정확한 전달 상태를 선택한다.
+
+로컬 실제 HTTP 보조 검사: hello/health/info/404 4건 모두 기대 상태·JSON 일치. evidence/local-http-results.json 참조. Docker 시험과 구분한다.

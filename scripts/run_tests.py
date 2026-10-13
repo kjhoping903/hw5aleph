@@ -39,7 +39,8 @@ def main():
                 if case.find(tag) is not None:
                     state = status
                     break
-            results.append({'id': case.attrib['name'].split('_')[1],
+            parts = case.attrib['name'].split('_')
+            results.append({'id': parts[1] if len(parts) > 1 else 'collection_error',
                             'function': case.attrib['name'], 'status': state})
     counts = {status: sum(r['status'] == status for r in results)
               for status in ('passed', 'failed', 'errors', 'skipped')}

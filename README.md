@@ -76,3 +76,7 @@ JSON은 evidence/에 있다. 실행기를 다시 쓸 때 기존 실행 증거를
 ## 10. 공개 보고서
 [보고서](docs/report.md). 고정 커밋 링크는 커밋·푸시 후 외부 제출 manifest에 확정한다. 시작 커밋: 940a15177e4d8927acd7bde7e7abf85f6c539bf1.
 설계 근거: [Flask factory](https://flask.palletsprojects.com/en/stable/patterns/appfactories/), [pytest plugins](https://docs.pytest.org/en/stable/how-to/writing_plugins.html).
+
+A 구현 커밋: d893086a8eb9fab4521070ca2a84fea8c7f24129. 최종 전달은 `t05-a-handover` 태그를 사용한다. B는 Clone 후 `git checkout t05-a-handover`로 정확한 전달 상태를 선택한다.
+
+로컬 실제 HTTP 보조 검사: hello/health/info/404 4건 모두 기대 상태·JSON 일치. evidence/local-http-results.json 참조. Docker 시험과 구분한다.
