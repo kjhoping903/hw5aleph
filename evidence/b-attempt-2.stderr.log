@@ -1,0 +1,2 @@
+2026-10-13T07:17:27.844342Z  WARN codex_core::shell_snapshot: Failed to create shell snapshot for powershell: Shell snapshot not supported yet for PowerShell
+2026-10-13T07:17:41.880613Z ERROR codex_core::tools::router: error=exec_command failed: CreateProcess { message: "Rejected(\"`\\\"C:\\\\\\\\WINDOWS\\\\\\\\System32\\\\\\\\WindowsPowerShell\\\\\\\\v1.0\\\\\\\\powershell.exe\\\" -Command 'Get-Location; Get-ChildItem -Force; git ls-remote https://github.com/kjhoping903/hw5aleph refs/heads/t05-lab'` rejected: blocked by policy\")" }

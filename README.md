@@ -70,7 +70,7 @@ B는 새 실제 세션과 빈 작업 디렉터리를 사용한다. A 대화를 �
 실행 시 상한 90분, 관측 가능한 사용자 요청+도구 호출 합계 60회. 내부 호출과 토큰은 미제공이면 unavailable.
 
 ## 9. 결과 확인
-baseline 7/10, A 최종 10/10. 실제 B는 별도 실행 후에만 집계한다.
+baseline 7/10, A 최종 10/10. 독립 B 실행은 시도했으나 환경 정책으로 차단되어 검사 집계는 미실행이다.
 JSON은 evidence/에 있다. 실행기를 다시 쓸 때 기존 실행 증거를 덮어쓰지 않도록 새 출력 이름을 사용한다. not_run 템플릿만 실행 결과로 교체할 수 있다.
 
 ## 10. 공개 보고서
@@ -80,3 +80,5 @@ JSON은 evidence/에 있다. 실행기를 다시 쓸 때 기존 실행 증거를
 A 구현 커밋: d893086a8eb9fab4521070ca2a84fea8c7f24129. 최종 전달은 `t05-a-handover` 태그를 사용한다. B는 Clone 후 `git checkout t05-a-handover`로 정확한 전달 상태를 선택한다.
 
 로컬 실제 HTTP 보조 검사: hello/health/info/404 4건 모두 기대 상태·JSON 일치. evidence/local-http-results.json 참조. Docker 시험과 구분한다.
+
+최신 B 상태: 실제 독립 실행 시도는 FAIL(환경 정책 차단), 시작/최종 검사와 비교는 미실행. CLI 보고 토큰 61660으로 50000 상한 초과. 상세 기록은 docs/session-b-log.md.

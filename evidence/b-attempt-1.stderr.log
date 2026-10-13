@@ -1,0 +1,5 @@
+2026-10-13T07:16:39.945116Z  WARN codex_models_manager::model_info: Unknown model gpt-5.3-codex is used. This will use fallback model metadata.
+2026-10-13T07:16:40.010783Z  WARN codex_core::shell_snapshot: Failed to create shell snapshot for powershell: Shell snapshot not supported yet for PowerShell
+2026-10-13T07:16:40.077472Z  WARN codex_models_manager::model_info: Unknown model gpt-5.3-codex is used. This will use fallback model metadata.
+2026-10-13T07:16:40.099844Z  WARN codex_models_manager::model_info: Unknown model gpt-5.3-codex is used. This will use fallback model metadata.
+2026-10-13T07:16:40.984531Z  WARN codex_core::session::startup_prewarm: startup websocket prewarm setup failed: {"type":"error","status":400,"error":{"type":"invalid_request_error","message":"The 'gpt-5.3-codex' model is not supported when using Codex with a ChatGPT account."}}

@@ -1,6 +1,15 @@
 {
   "status": "not_run",
-  "reason": "independent B results unavailable",
-  "sessions": [],
+  "reason": "B attempted but blocked; no B test results",
+  "a": {
+    "baseline_passed": 7,
+    "final_passed": 10
+  },
+  "b": {
+    "start": null,
+    "final": null,
+    "execution_attempt": "failed",
+    "test_execution": "not_run"
+  },
   "blind_mapping": null
 }

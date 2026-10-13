@@ -27,5 +27,36 @@
   "observable_request_plus_call_count": 40,
   "within_observed_call_limit": true,
   "within_time_limit": true,
-  "initial_request_received_at": null
+  "initial_request_received_at": null,
+  "post_a_orchestration": {
+    "status": "recorded_through_final_local_commit",
+    "ended_at": "2026-10-13T07:21:35.160305+00:00",
+    "root_observed_atomic_tool_calls_total": 52,
+    "root_user_requests_total": 2,
+    "root_agent_launch_requests": 2,
+    "combined_observable_count": 56,
+    "note": "Includes A local 39 calls plus push, fresh B attempts, publication preference/approval, inspection and finalization. Final push/link verification recorded in external manifest."
+  },
+  "b_attempt_2": {
+    "started_at": "2026-10-13T07:17:27.625716+00:00",
+    "ended_at": "2026-10-13T07:18:27.242217+00:00",
+    "elapsed_seconds": 59.616507299942896,
+    "exit_code": 1,
+    "requested_model": "account default",
+    "actual_model_verification": "inspect CLI stderr/header and events; requested model is not proof",
+    "user_requests": 1,
+    "observed_tool_calls": 2,
+    "tool_count_basis": "unique item.started command_execution/mcp_tool_call/web_search events",
+    "token_usage": {
+      "input_tokens": 60958,
+      "cached_input_tokens": 57344,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 702,
+      "reasoning_output_tokens": 10
+    },
+    "stop_reason": "reported_token_limit_exceeded",
+    "new_working_directory": "C:\\work\\sep12\\과제5\\t05-independent-b-2",
+    "history_isolation": "new CLI process; no resume/fork; ephemeral; ignore-user-config; stdin contains only repository, handover instruction, goal and limits"
+  },
+  "b_token_limit_exceeded": true
 }

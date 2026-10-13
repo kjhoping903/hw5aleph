@@ -36,7 +36,7 @@ fixture까지 포함한 불변성 검사 2개 PASS. 앱 초기화 시 환경변�
 독립 B는 공개 저장소와 이 문서만 받아 빈 폴더에 Clone하고 같은 전달 커밋을 사용한다. A의 대화 전문은 전달하지 않는다.
 
 ## 5. Session B
-실제 독립 세션 결과는 아직 미실행. Codex CLI 비대화형 실행과 로그인 가능 여부를 조사했다.
+독립 CLI 세션을 실제 생성했으나 모델 지원 오류와 실행 정책 차단으로 Clone·검사는 미실행이다. docs/session-b-log.md 및 원본 events/stderr를 보존했다.
 공식 [비대화형 실행 문서](https://learn.chatgpt.com/docs/non-interactive-mode)와 로컬 도움말을 확인했다. 로그인 성공만으로 B 재현 성공을 주장하지 않는다.
 실행이 불가능하면 docs/session-b-prompt.md를 새 실제 세션에 제공한다. B 로그·결과는 실제 실행 후에만 채운다.
 
@@ -49,7 +49,7 @@ v1의 T05/T07/T08 실패를 그대로 보존했다. 첫 결과 수집기의 Git 
 Docker 명령이 없어 Compose와 컨테이너 HTTP는 미실행이다. 로컬 Python test_client 통과와 구분한다.
 CI 워크플로는 구성 여부와 실제 실행 성공을 구분한다. Linux와 클린 환경 재현은 B가 확인해야 한다.
 외부 계정·인증·엔진 상태는 Git만으로 보장하지 않는다. 본 프로젝트는 DB·회원가입·외부 API를 사용하지 않는다.
-공개 접근은 인증 없는 요청의 증거를 확인해야 하며 Git push 성공만으로 공개 조건을 통과 처리하지 않는다.
+사용자의 저장소 전체 공개 승인 후 공개 설정을 적용했다. 인증 없는 GitHub API 조회 HTTP 200과 private=false를 확인했다. evidence/repository-publication.json 참조. 최종 보고서·소스 고정 URL은 외부 manifest에서 추가 확인한다.
 
 ## 8. 실행 안내
 README의 Windows/Linux/Python/Docker 명령을 따른다. `python -m pytest tests/test_fixed.py -v`가 고정 검사 10개다.
@@ -112,3 +112,5 @@ README의 Windows/Linux/Python/Docker 명령을 따른다. `python -m pytest tes
 A 구현 커밋: d893086a8eb9fab4521070ca2a84fea8c7f24129. 최종 전달은 `t05-a-handover` 태그를 사용한다. B는 Clone 후 `git checkout t05-a-handover`로 정확한 전달 상태를 선택한다.
 
 로컬 실제 HTTP 보조 검사: hello/health/info/404 4건 모두 기대 상태·JSON 일치. evidence/local-http-results.json 참조. Docker 시험과 구분한다.
+
+최신 B 상태: 실제 독립 실행 시도는 FAIL(환경 정책 차단), 시작/최종 검사와 비교는 미실행. CLI 보고 토큰 61660으로 50000 상한 초과. 상세 기록은 docs/session-b-log.md.

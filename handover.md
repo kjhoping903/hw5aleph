@@ -5,7 +5,7 @@
 A 완료: hello v2와 앱 생성 시 APP_PLACE 처리. health/info/404 보존. baseline 7/10 → A 10/10.
 시작 커밋: 940a15177e4d8927acd7bde7e7abf85f6c539bf1. URL: https://github.com/kjhoping903/hw5aleph/commit/940a15177e4d8927acd7bde7e7abf85f6c539bf1. 브랜치: t05-lab.
 A 구현 커밋과 전달 커밋은 커밋 후 docs/session-a-log.md 및 외부 submission-manifest.json에 기록한다. B는 전달 커밋을 checkout한다.
-미완료: Docker 실제 실행, 독립 B의 재현·동일 검사·최종 비교.
+미완료: Docker 실제 실행, 명령 정책에 차단된 독립 B의 재현·동일 검사·최종 비교.
 
 ## 2. 고정 검사 10개
 | ID | 입력 | 기대 결과 | 실행 명령 | 판정 |
@@ -73,3 +73,5 @@ A 기능 개선 시작 관측: 2026-10-13T06:57:59Z. 시작 커밋은 위 SHA.
 A 구현 커밋: d893086a8eb9fab4521070ca2a84fea8c7f24129. 최종 전달은 `t05-a-handover` 태그를 사용한다. B는 Clone 후 `git checkout t05-a-handover`로 정확한 전달 상태를 선택한다.
 
 로컬 실제 HTTP 보조 검사: hello/health/info/404 4건 모두 기대 상태·JSON 일치. evidence/local-http-results.json 참조. Docker 시험과 구분한다.
+
+최신 B 상태: 실제 독립 실행 시도는 FAIL(환경 정책 차단), 시작/최종 검사와 비교는 미실행. CLI 보고 토큰 61660으로 50000 상한 초과. 상세 기록은 docs/session-b-log.md.
