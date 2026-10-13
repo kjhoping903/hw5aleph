@@ -1,0 +1,102 @@
+{
+  "definition_version": "1.0.0",
+  "frozen_at": "2026-10-13T06:57:26.574912+00:00",
+  "scope": "Flask test_client only; not Docker HTTP or independent B proof",
+  "checks": [
+    {
+      "id": "T01",
+      "function": "test_T01_service_start",
+      "input": "APP_PLACE unset; create_app()",
+      "expected": "Flask instance",
+      "command": "python -m pytest tests/test_fixed.py::test_T01_service_start -v",
+      "judgment": "PASS only when all assertions pass; FAIL/ERROR/SKIP remain distinct"
+    },
+    {
+      "id": "T02",
+      "function": "test_T02_health_status",
+      "input": "GET /api/health",
+      "expected": "HTTP 200",
+      "command": "python -m pytest tests/test_fixed.py::test_T02_health_status -v",
+      "judgment": "PASS only when all assertions pass; FAIL/ERROR/SKIP remain distinct"
+    },
+    {
+      "id": "T03",
+      "function": "test_T03_health_json",
+      "input": "GET /api/health",
+      "expected": {
+        "status": "ok",
+        "service": "t05-stateless-handover"
+      },
+      "command": "python -m pytest tests/test_fixed.py::test_T03_health_json -v",
+      "judgment": "PASS only when all assertions pass; FAIL/ERROR/SKIP remain distinct"
+    },
+    {
+      "id": "T04",
+      "function": "test_T04_hello_status",
+      "input": "GET /api/hello",
+      "expected": "HTTP 200",
+      "command": "python -m pytest tests/test_fixed.py::test_T04_hello_status -v",
+      "judgment": "PASS only when all assertions pass; FAIL/ERROR/SKIP remain distinct"
+    },
+    {
+      "id": "T05",
+      "function": "test_T05_hello_version",
+      "input": "GET /api/hello",
+      "expected": "version: string v2",
+      "command": "python -m pytest tests/test_fixed.py::test_T05_hello_version -v",
+      "judgment": "PASS only when all assertions pass; FAIL/ERROR/SKIP remain distinct"
+    },
+    {
+      "id": "T06",
+      "function": "test_T06_default_place",
+      "input": "APP_PLACE unset; GET /api/hello",
+      "expected": "place: string UNKNOWN",
+      "command": "python -m pytest tests/test_fixed.py::test_T06_default_place -v",
+      "judgment": "PASS only when all assertions pass; FAIL/ERROR/SKIP remain distinct"
+    },
+    {
+      "id": "T07",
+      "function": "test_T07_daejeon",
+      "input": "APP_PLACE=DAEJEON; new app; GET /api/hello",
+      "expected": "place: string DAEJEON",
+      "command": "python -m pytest tests/test_fixed.py::test_T07_daejeon -v",
+      "judgment": "PASS only when all assertions pass; FAIL/ERROR/SKIP remain distinct"
+    },
+    {
+      "id": "T08",
+      "function": "test_T08_seoul",
+      "input": "APP_PLACE=SEOUL; new app; GET /api/hello",
+      "expected": "place: string SEOUL",
+      "command": "python -m pytest tests/test_fixed.py::test_T08_seoul -v",
+      "judgment": "PASS only when all assertions pass; FAIL/ERROR/SKIP remain distinct"
+    },
+    {
+      "id": "T09",
+      "function": "test_T09_info_contract",
+      "input": "GET /api/info",
+      "expected": {
+        "http": 200,
+        "json": {
+          "project": "T05 Stateless Handover Lab",
+          "runtime": "Flask",
+          "handover": true
+        }
+      },
+      "command": "python -m pytest tests/test_fixed.py::test_T09_info_contract -v",
+      "judgment": "PASS only when all assertions pass; FAIL/ERROR/SKIP remain distinct"
+    },
+    {
+      "id": "T10",
+      "function": "test_T10_not_found",
+      "input": "GET /api/not-found",
+      "expected": {
+        "http": 404,
+        "json": {
+          "error": "not_found"
+        }
+      },
+      "command": "python -m pytest tests/test_fixed.py::test_T10_not_found -v",
+      "judgment": "PASS only when all assertions pass; FAIL/ERROR/SKIP remain distinct"
+    }
+  ]
+}

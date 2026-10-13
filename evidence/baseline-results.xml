@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites name="pytest tests"><testsuite name="pytest" errors="0" failures="3" skipped="0" tests="10" time="0.087" timestamp="2026-10-13T15:57:45.862892+09:00" hostname="DESKTOP-OF0CMDB"><testcase classname="tests.test_fixed" name="test_T01_service_start" time="0.002" /><testcase classname="tests.test_fixed" name="test_T02_health_status" time="0.005" /><testcase classname="tests.test_fixed" name="test_T03_health_json" time="0.002" /><testcase classname="tests.test_fixed" name="test_T04_hello_status" time="0.002" /><testcase classname="tests.test_fixed" name="test_T05_hello_version" time="0.002"><failure message="AssertionError: assert 'v1' == 'v2'&#10;  &#10;  - v2&#10;  + v1">factory = &lt;function factory.&lt;locals&gt;.make at 0x0000017EF7D72B60&gt;
+
+    def test_T05_hello_version(factory):
+        body = factory().test_client().get('/api/hello').get_json()
+        assert type(body['version']) is str
+&gt;       assert body['version'] == 'v2'
+E       AssertionError: assert 'v1' == 'v2'
+E         
+E         - v2
+E         + v1
+
+tests\test_fixed.py:26: AssertionError</failure></testcase><testcase classname="tests.test_fixed" name="test_T06_default_place" time="0.002" /><testcase classname="tests.test_fixed" name="test_T07_daejeon" time="0.002"><failure message="AssertionError: assert 'UNKNOWN' == 'DAEJEON'&#10;  &#10;  - DAEJEON&#10;  + UNKNOWN">factory = &lt;function factory.&lt;locals&gt;.make at 0x0000017EF7D73C40&gt;
+
+    def test_T07_daejeon(factory):
+        body = factory('DAEJEON').test_client().get('/api/hello').get_json()
+        assert type(body['place']) is str
+&gt;       assert body['place'] == 'DAEJEON'
+E       AssertionError: assert 'UNKNOWN' == 'DAEJEON'
+E         
+E         - DAEJEON
+E         + UNKNOWN
+
+tests\test_fixed.py:38: AssertionError</failure></testcase><testcase classname="tests.test_fixed" name="test_T08_seoul" time="0.002"><failure message="AssertionError: assert 'UNKNOWN' == 'SEOUL'&#10;  &#10;  - SEOUL&#10;  + UNKNOWN">factory = &lt;function factory.&lt;locals&gt;.make at 0x0000017EF7D344A0&gt;
+
+    def test_T08_seoul(factory):
+        body = factory('SEOUL').test_client().get('/api/hello').get_json()
+        assert type(body['place']) is str
+&gt;       assert body['place'] == 'SEOUL'
+E       AssertionError: assert 'UNKNOWN' == 'SEOUL'
+E         
+E         - SEOUL
+E         + UNKNOWN
+
+tests\test_fixed.py:44: AssertionError</failure></testcase><testcase classname="tests.test_fixed" name="test_T09_info_contract" time="0.002" /><testcase classname="tests.test_fixed" name="test_T10_not_found" time="0.002" /></testsuite></testsuites>

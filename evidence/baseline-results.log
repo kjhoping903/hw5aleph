@@ -1,0 +1,67 @@
+============================= test session starts =============================
+platform win32 -- Python 3.12.12, pytest-8.4.2, pluggy-1.6.0 -- C:\work\sep12\과제5\t05-stateless-handover\.venv\Scripts\python.exe
+cachedir: .pytest_cache
+rootdir: C:\work\sep12\과제5\t05-stateless-handover
+configfile: pytest.ini
+collecting ... collected 10 items
+
+tests/test_fixed.py::test_T01_service_start PASSED                       [ 10%]
+tests/test_fixed.py::test_T02_health_status PASSED                       [ 20%]
+tests/test_fixed.py::test_T03_health_json PASSED                         [ 30%]
+tests/test_fixed.py::test_T04_hello_status PASSED                        [ 40%]
+tests/test_fixed.py::test_T05_hello_version FAILED                       [ 50%]
+tests/test_fixed.py::test_T06_default_place PASSED                       [ 60%]
+tests/test_fixed.py::test_T07_daejeon FAILED                             [ 70%]
+tests/test_fixed.py::test_T08_seoul FAILED                               [ 80%]
+tests/test_fixed.py::test_T09_info_contract PASSED                       [ 90%]
+tests/test_fixed.py::test_T10_not_found PASSED                           [100%]
+
+================================== FAILURES ===================================
+___________________________ test_T05_hello_version ____________________________
+
+factory = <function factory.<locals>.make at 0x0000017EF7D72B60>
+
+    def test_T05_hello_version(factory):
+        body = factory().test_client().get('/api/hello').get_json()
+        assert type(body['version']) is str
+>       assert body['version'] == 'v2'
+E       AssertionError: assert 'v1' == 'v2'
+E         
+E         - v2
+E         + v1
+
+tests\test_fixed.py:26: AssertionError
+______________________________ test_T07_daejeon _______________________________
+
+factory = <function factory.<locals>.make at 0x0000017EF7D73C40>
+
+    def test_T07_daejeon(factory):
+        body = factory('DAEJEON').test_client().get('/api/hello').get_json()
+        assert type(body['place']) is str
+>       assert body['place'] == 'DAEJEON'
+E       AssertionError: assert 'UNKNOWN' == 'DAEJEON'
+E         
+E         - DAEJEON
+E         + UNKNOWN
+
+tests\test_fixed.py:38: AssertionError
+_______________________________ test_T08_seoul ________________________________
+
+factory = <function factory.<locals>.make at 0x0000017EF7D344A0>
+
+    def test_T08_seoul(factory):
+        body = factory('SEOUL').test_client().get('/api/hello').get_json()
+        assert type(body['place']) is str
+>       assert body['place'] == 'SEOUL'
+E       AssertionError: assert 'UNKNOWN' == 'SEOUL'
+E         
+E         - SEOUL
+E         + UNKNOWN
+
+tests\test_fixed.py:44: AssertionError
+- generated xml file: C:\work\sep12\과제5\t05-stateless-handover\evidence\baseline-results.xml -
+=========================== short test summary info ===========================
+FAILED tests/test_fixed.py::test_T05_hello_version - AssertionError: assert '...
+FAILED tests/test_fixed.py::test_T07_daejeon - AssertionError: assert 'UNKNOW...
+FAILED tests/test_fixed.py::test_T08_seoul - AssertionError: assert 'UNKNOWN'...
+========================= 3 failed, 7 passed in 0.12s =========================
